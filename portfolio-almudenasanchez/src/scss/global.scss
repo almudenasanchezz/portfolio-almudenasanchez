@@ -1,0 +1,17 @@
+@import "./custom-property";
+@import "./utilities";
+
+body {
+  background-color: #1e1e1e;
+  font-family: Helvetica;
+}
+
+.link {
+  color: plum;
+}
+
+.navegation {
+  display: flex;
+  gap: 40px;
+  float: right;
+}
