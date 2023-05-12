@@ -5,7 +5,7 @@ import "./scss/global.scss";
 function App() {
   return (
     <>
-      <header className="header">
+      <div className="header">
         <nav className="header-nav">
           <Link className="header-link" to="/">
             Home
@@ -20,7 +20,7 @@ function App() {
             Contact
           </Link>
         </nav>
-      </header>
+      </div>
       <Outlet />
       <footer className="footer">
         <div className="logo">MI LOGO</div>

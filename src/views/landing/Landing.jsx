@@ -1,3 +1,5 @@
+import "./landing.scss";
+
 function Landing() {
   return (
     <section className="landing">
