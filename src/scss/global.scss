@@ -52,3 +52,70 @@ body {
   color: #1e1e1e;
   font-size: 48px;
 }
+
+.landing {
+  padding: 0 120px 0 120px;
+}
+
+.h1 {
+  font-size: 128px;
+  font-weight: 400;
+  margin-bottom: 86px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px #d9d9d9;
+}
+
+.buttons {
+  display: flex;
+  gap: 33px;
+  margin: 100px 0 200px 0;
+}
+
+.primary-button {
+  background-color: #ffffff;
+  color: #1e1e1e;
+  border-radius: 50px;
+  font-size: 36px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: none;
+}
+
+.primary-button:hover {
+  background-color: #e598ce;
+  border: none;
+}
+
+.secondary-button {
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 36px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.secondary-button:hover {
+  border: solid 1px #e598ce;
+  color: #e598ce;
+}
+
+.info-text {
+  font-size: 24px;
+}
+
+
+//declaracion de variables, unidades de padding y tamaños de fuents
+
+//si algo de css tiene algo que ver con un componente no tiene que ir en la carpeta de global sino donde el componente
+
+//la carpeta scss solo cosas genericas
+
+//menu es un componente menu que tendrá unos estilos que estarán en menu.scss
+
+//cosas globales como body, h1, h3 eso si va en global
+
