@@ -6,12 +6,49 @@ body {
   font-family: Helvetica;
 }
 
-.link {
-  color: plum;
+.header {
+  padding: 2rem;
 }
 
-.navegation {
+.header-link {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.header-link:hover {
+  color: #e598ce;
+  text-decoration: underline;
+}
+
+.header-nav {
   display: flex;
-  gap: 40px;
+  gap: 48px;
   float: right;
+}
+
+.footer {
+  display: flex;
+  gap: 380px;
+  background-color: #d9d9d9;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: #1e1e1e;
+  font-size: 24px;
+}
+
+.footer-link:hover {
+  color: green;
+}
+
+.logo {
+  color: #1e1e1e;
+  font-size: 48px;
 }
