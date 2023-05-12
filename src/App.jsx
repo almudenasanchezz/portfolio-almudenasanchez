@@ -7,16 +7,16 @@ function App() {
     <>
       <header className="header">
         <nav className="header-nav">
-          <Link className="header-link" to="/list">
+          <Link className="header-link" to="/">
             Home
           </Link>
-          <Link className="header-link" to="/list">
+          <Link className="header-link" to="/projects">
             Projects
           </Link>
-          <Link className="header-link" to="/list">
+          <Link className="header-link" to="/about">
             About
           </Link>
-          <Link className="header-link" to="/list">
+          <Link className="header-link" to="/contact">
             Contact
           </Link>
         </nav>
@@ -36,16 +36,16 @@ function App() {
           </Link>
         </nav>
         <nav className="footer-nav">
-          <Link className="footer-link" to="/list">
+          <Link className="footer-link" to="/">
             Home
           </Link>
-          <Link className="footer-link" to="/list">
+          <Link className="footer-link" to="/projects">
             Projects
           </Link>
-          <Link className="footer-link" to="/list">
+          <Link className="footer-link" to="/about">
             About
           </Link>
-          <Link className="footer-link" to="/list">
+          <Link className="footer-link" to="/contact">
             Contact
           </Link>
         </nav>
