@@ -5,47 +5,47 @@ import "./scss/global.scss";
 function App() {
   return (
     <>
-      <div className="header">
-        <nav className="header-nav">
-          <Link className="header-link" to="/">
+      <header className="header">
+        <nav className="header__nav">
+          <Link className="header__link" to="/">
             Home
           </Link>
-          <Link className="header-link" to="/projects">
+          <Link className="header__link" to="/projects">
             Projects
           </Link>
-          <Link className="header-link" to="/about">
+          <Link className="header__link" to="/about">
             About
           </Link>
-          <Link className="header-link" to="/contact">
+          <Link className="header__link" to="/contact">
             Contact
           </Link>
         </nav>
-      </div>
+      </header>
       <Outlet />
       <footer className="footer">
         <div className="logo">MI LOGO</div>
-        <nav className="footer-nav">
-          <Link className="footer-link" to="/list">
+        <nav className="footer__nav">
+          <Link className="footer__link" to="/list">
             Github
           </Link>
-          <Link className="footer-link" to="/list">
+          <Link className="footer__link" to="/list">
             LinkedIn
           </Link>
-          <Link className="footer-link" to="/list">
+          <Link className="footer__link" to="/list">
             Behance
           </Link>
         </nav>
-        <nav className="footer-nav">
-          <Link className="footer-link" to="/">
+        <nav className="footer__nav">
+          <Link className="footer__link" to="/">
             Home
           </Link>
-          <Link className="footer-link" to="/projects">
+          <Link className="footer__link" to="/projects">
             Projects
           </Link>
-          <Link className="footer-link" to="/about">
+          <Link className="footer__link" to="/about">
             About
           </Link>
-          <Link className="footer-link" to="/contact">
+          <Link className="footer__link" to="/contact">
             Contact
           </Link>
         </nav>

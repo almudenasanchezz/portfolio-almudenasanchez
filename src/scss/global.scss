@@ -3,72 +3,74 @@
 @import "./variables";
 
 body {
-  background-color: #1e1e1e;
+  background-color: var(--main-dark-color);
   font-family: Helvetica;
 }
 
 .header {
-  padding: 2rem;
-}
+  padding: 8rem;
+  padding-top: 4rem;
 
-.header-link {
-  color: #ffffff;
-  font-size: 24px;
-}
+  &__nav {
+    display: flex;
+    gap: 48px;
+    float: right;
+  }
 
-.header-link:hover {
-  color: #e598ce;
-  text-decoration: underline;
-}
+  &__link {
+    color: var(--main-light-color);
+    font-size: var(--font-xxs);
+  }
 
-.header-nav {
-  display: flex;
-  gap: 48px;
-  float: right;
+  &__link:hover {
+    color: var(--pink);
+    text-decoration: underline;
+  }
 }
 
 .footer {
   display: flex;
   gap: 380px;
-  background-color: #d9d9d9;
+  background-color: var(--main-medium-color);
   padding: 2rem;
   justify-content: center;
-}
 
-.footer-nav {
-  display: flex;
-  flex-direction: column;
-}
+  &__nav {
+    display: flex;
+    flex-direction: column;
+  }
 
-.footer-link {
-  color: #1e1e1e;
-  font-size: 24px;
-}
+  &__link {
+    color: var(--main-dark-color);
+    font-size: var(--font-xxs);
+  }
 
-.footer-link:hover {
-  color: green;
+  &__link:hover {
+    color: var(--pink);
+  }
 }
 
 .logo {
-  color: #1e1e1e;
-  font-size: 48px;
+  color: var(--main-dark-color);
+  font-size: var(--font-s);
 }
 
 .landing {
-  padding: 0 120px 0 120px;
+  padding: 2rem 8rem 0 8rem;
 }
 
 .h1 {
-  font-size: 128px;
-  font-weight: 400;
-  margin-bottom: 86px;
-  color: #d9d9d9;
+  font-size: var(--font-xl);
+  font-weight: var(--regular-font-weight);
+  margin-top: 0;
+  margin-bottom: 4rem;
+  color: var(--main-medium-color);
 }
 
 .info {
   display: flex;
   justify-content: space-between;
-  border-top: solid 1px #d9d9d9;
+  border-top: solid 1px var(--main-medium-color);
 }
 
 .buttons {
@@ -78,54 +80,70 @@ body {
 }
 
 .primary-button {
-  background-color: #ffffff;
-  color: #1e1e1e;
+  background-color: var(--main-light-color);
+  color: var(--main-dark-color);
   border-radius: 50px;
-  font-size: 36px;
-  padding-left: 100px;
-  padding-right: 100px;
+  font-size: var(--font-xs);
+  padding-left: 6rem;
+  padding-right: 6rem;
   border: none;
-}
 
-.primary-button:hover {
-  background-color: #e598ce;
-  border: none;
+  &:hover {
+    background-color: var(--pink);
+    border: none;
+  }
 }
 
 .secondary-button {
-  border: solid 1px #ffffff;
-  color: #ffffff;
+  border: solid 1px var(--main-light-color);
+  color: var(--main-light-color);
   border-radius: 50px;
-  font-size: 36px;
-  padding-left: 100px;
-  padding-right: 100px;
-}
+  font-size: var(--font-xs);
+  padding-left: 6rem;
+  padding-right: 6rem;
 
-.secondary-button:hover {
-  border: solid 1px #e598ce;
-  color: #e598ce;
+  &:hover {
+    border: solid 1px var(--pink);
+    color: var(--pink);
+  }
 }
 
 .info-text {
-  font-size: 24px;
-  color: #d9d9d9;
+  font-size: var(--font-xxs);
+  color: var(--main-medium-color);
 }
 
 .h2 {
-  font-size: 96px;
-  font-weight: 400;
-  color: #d9d9d9;
+  font-size: var(--font-l);
+  font-weight: var(--regular-font-weight);
+  color: var(--main-medium-color);
+  margin-bottom: 8rem;
+  margin-top: 0;
 }
 
-.paragraph {
-  max-width: 800px;
-  font-size: 36px;
-  line-height: 41px;
-  color: #d9d9d9;
-  font-weight: 400;
+.intro__container {
+  display: flex;
+
+  &__left {
+    display: flex;
+    width: 50%;
+  }
+
+  &__right {
+    display: flex;
+    width: 50%;
+
+    &__paragraph {
+      font-size: var(--font-xs);
+      line-height: 41px;
+      color: var(--main-medium-color);
+      font-weight: var(--regular-font-weight);
+      margin: 0;
+    }
+  }
 }
 
-//declaracion de variables, unidades de padding y tamaños de fuents
+//declaracion de variables, unidades de padding y tamaños de fuentes
 
 //si algo de css tiene algo que ver con un componente no tiene que ir en la carpeta de global sino donde el componente
 

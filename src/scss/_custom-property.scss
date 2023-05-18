@@ -1,0 +1,31 @@
+:root {
+  /* margins */
+  /* paddings */
+  /* gap */
+  /* border-radius  */
+
+  /* fonts */
+  --main-font: "Helvetica";
+  --regular-font-weight: 400;
+
+  /* font-size */
+  --font-xl: 8rem; /* 128px */
+  --font-l: 6rem; /* 96px */
+  --font-m: 4rem; /* 64px */
+  --font-s: 3rem; /* 48px */
+  --font-xs: 2rem; /* 36px */
+  --font-xxs: 1.5rem; /* 24px */
+
+  /* colors */
+  --black: hsl(0, 0%, 12%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 85%);
+  --red: hsl(6, 64%, 58%);
+  --green: hsl(149, 37%, 53%);
+  --pink: hsl(318, 60%, 75%);
+  --blue: hsl(218, 59%, 53%);
+  --main-dark-color: var(--black);
+  --main-light-color: var(--white);
+  --main-medium-color: var(--grey);
+  /* falta darle una funcionalidad a los colores secundarios */
+}

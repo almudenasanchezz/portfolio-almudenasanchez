@@ -1,1 +1,64 @@
+@import "../../scss/custom-property";
 @import "../../scss/global.scss";
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-bottom: 560px;
+  padding-top: 418px;
+}
+
+.project {
+  display: flex;
+  width: 100%;
+  height: 732px;
+
+  &__image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: var(--main-light-color);
+  }
+
+  &__content {
+    width: 50%;
+    border: solid 1px var(--main-light-color);
+  }
+}
+
+.project__title {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__language {
+    font-size: var(--font-xxs);
+    color: var(--main-light-color);
+    font-weight: var(--regular-font-weight);
+    margin: 0;
+  }
+
+  &__exercise {
+    font-size: var(--font-s);
+    color: var(--main-light-color);
+    font-weight: var(--regular-font-weight);
+    margin: 0;
+    padding-bottom: 40px;
+  }
+}
+
+.project__btn__container {
+  display: flex;
+
+  &__icon {
+  }
+
+  &__btn {
+    display: flex;
+    background-color: var(--green);
+    border-radius: 50px;
+    font-size: var(--font-xxs);
+  }
+}
