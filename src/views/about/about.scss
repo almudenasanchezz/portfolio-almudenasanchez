@@ -1,1 +1,73 @@
 @import "../../scss/global.scss";
+@import "../../scss/custom-property";
+
+/* intro */
+.intro__about {
+  display: flex;
+  padding-bottom: 200px;
+}
+
+.intro__about__left {
+  width: 50%;
+}
+
+.intro__about__right {
+  display: flex;
+  gap: 50px;
+  width: 50%;
+  flex-direction: column;
+}
+
+.intro__about__right__text {
+  font-size: 36px;
+  color: white;
+}
+
+/* hard skills */
+.hs__container {
+  display: flex;
+  gap: 64px;
+  margin-bottom: 275px;
+}
+
+.hskill {
+  display: flex;
+  background-color: var(--main-light-color);
+  border-radius: 20px;
+  flex-direction: column;
+  height: 380px;
+  width: -webkit-fill-available;
+}
+
+.hskill__color-red {
+  background-color: var(--red);
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+}
+
+.hskill__color-green {
+  background-color: var(--green);
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+}
+
+.hskill__color-pink {
+  background-color: var(--pink);
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+}
+
+.hskill__color-blue {
+  background-color: var(--blue);
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+}
+
+.hskill__info {
+  padding: 24px;
+  font-size: var(--font-xs);
+}
+
+.hskill__info__text {
+  margin: 0 0 16px 0;
+}
