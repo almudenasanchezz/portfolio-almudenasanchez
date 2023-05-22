@@ -1,12 +1,17 @@
 @import "../../scss/custom-property";
 @import "../../scss/global.scss";
 
+.projects__page__content {
+  gap: 418px;
+  display: flex;
+  flex-direction: column;
+}
+
 .projects__container {
   display: flex;
   flex-direction: column;
   gap: 0;
   padding-bottom: 560px;
-  padding-top: 418px;
 }
 
 .project {
