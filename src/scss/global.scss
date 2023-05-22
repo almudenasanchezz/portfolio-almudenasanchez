@@ -56,7 +56,7 @@ body {
 }
 
 .landing {
-  padding: 2rem 8rem 0 8rem;
+  padding: 2rem 8rem 12rem 8rem;
 }
 
 .h1 {
@@ -76,7 +76,6 @@ body {
 .buttons {
   display: flex;
   gap: 33px;
-  margin: 100px 0 200px 0;
 }
 
 .primary-button {
@@ -141,6 +140,19 @@ body {
       margin: 0;
     }
   }
+}
+
+.h4 {
+  font-size: var(--font-xs);
+  font-weight: var(--regular-font-weight);
+  font-family: Helvetica;
+  margin: 0;
+}
+
+.paragraph {
+  font-size: var(--font-xxs);
+  font-weight: var(--regular-font-weight);
+  font-family: Helvetica;
 }
 
 //declaracion de variables, unidades de padding y tamaños de fuentes

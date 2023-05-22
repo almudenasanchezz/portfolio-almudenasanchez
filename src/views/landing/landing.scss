@@ -1,2 +1,36 @@
 @import "../../scss/global.scss";
 
+.home__container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.containers {
+  display: flex;
+}
+
+.empty__container {
+  width: 50%;
+}
+
+.content__container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 100px;
+
+  &__top {
+    display: flex;
+    gap: 100px;
+  }
+
+  &__bottom {
+    display: flex;
+    gap: 100px;
+  }
+}
+
+.content__text {
+  color: white;
+}

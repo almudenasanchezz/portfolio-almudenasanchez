@@ -1,0 +1,35 @@
+.item {
+  color: white;
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+}
+
+.h3,
+.plus__icon {
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "Helvetica";
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Helvetica";
+  max-height: 0;
+  overflow: hidden;
+}
+
+.content.show {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Helvetica";
+  height: auto;
+  padding-bottom: 64px;
+  max-height: 9999px;
+}
