@@ -111,6 +111,26 @@ function Landing() {
           </div>
         </div>
       </section>
+      <section className="landing">
+        <h2 className="h2">ABOUT ME</h2>
+        <div className="about__container">
+          <div className="about__container__img"></div>
+          <div className="about__container__content">
+            <p className="about__container__content__text">
+              I am a frontend web developer and ui designer with a background as
+              an engineer. I have always been passionate about technology and
+              design, which is why I enjoy creating attractive and accessible
+              websites. I am passionate about learning new things and improving
+              myself.
+            </p>
+            <button className="about__btn">Know more</button>
+          </div>
+        </div>
+      </section>
+      <section className="centered__text">
+        <p className="contact__text">LET'S CREATE TOGETHER</p>
+        <button className="contact__btn">Get in touch!</button>
+      </section>
     </>
   );
 }

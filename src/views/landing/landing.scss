@@ -34,3 +34,63 @@
 .content__text {
   color: white;
 }
+
+.about__container {
+  display: flex;
+
+  &__img {
+    width: 50%;
+  }
+
+  &__content {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__text {
+      color: white;
+      font-size: var(--font-xs);
+    }
+  }
+}
+
+.about__btn {
+  color: white;
+  font-size: var(--font-xs);
+  border: solid 1px white;
+  border-radius: 50px;
+  max-width: 40%;
+}
+
+.about__btn:hover {
+  color: var(--pink);
+  border: solid 1px var(--pink);
+}
+
+.centered__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 18rem 8rem 24rem 8rem;
+}
+
+.contact__text {
+  font-size: var(--font-xs);
+  color: white;
+}
+
+.contact__btn {
+  color: white;
+  font-size: var(--font-xs);
+  border: solid 1px white;
+  border-radius: 50px;
+}
+
+.contact__btn:hover {
+  color: var(--pink);
+  font-size: var(--font-xs);
+  border: solid 1px var(--pink);
+  border-radius: 50px;
+}
