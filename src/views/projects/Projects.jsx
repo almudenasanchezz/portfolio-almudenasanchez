@@ -27,7 +27,6 @@ function Projects() {
                 <p className="project__title__language">Javascript | React</p>
                 <p className="project__title__exercise">1. To do list</p>
                 <div className="project__btn__container">
-                  <p className="project__btn__container__icon">icono</p>
                   <button className="project__btn__container__btn">
                     View project
                   </button>
@@ -41,7 +40,6 @@ function Projects() {
                 <p className="project__title__language">React</p>
                 <p className="project__title__exercise">2. Calculator</p>
                 <div className="project__btn__container">
-                  <p className="project__btn__container__icon">icono</p>
                   <button className="project__btn__container__btn">
                     View project
                   </button>
@@ -57,7 +55,6 @@ function Projects() {
                 <p className="project__title__language">Figma</p>
                 <p className="project__title__exercise">3. Web redesign</p>
                 <div className="project__btn__container">
-                  <p className="project__btn__container__icon">icono</p>
                   <button className="project__btn__container__btn">
                     View project
                   </button>
@@ -71,7 +68,6 @@ function Projects() {
                 <p className="project__title__language">React</p>
                 <p className="project__title__exercise">4. To do list</p>
                 <div className="project__btn__container">
-                  <p className="project__btn__container__icon">icono</p>
                   <button className="project__btn__container__btn">
                     View project
                   </button>
@@ -87,7 +83,6 @@ function Projects() {
                 <p className="project__title__language">Javascript</p>
                 <p className="project__title__exercise">5. To do list</p>
                 <div className="project__btn__container">
-                  <p className="project__btn__container__icon">icono</p>
                   <button className="project__btn__container__btn">
                     View project
                   </button>
