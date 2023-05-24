@@ -78,35 +78,6 @@ body {
   gap: 33px;
 }
 
-.primary-button {
-  background-color: var(--main-light-color);
-  color: var(--main-dark-color);
-  border-radius: 50px;
-  font-size: var(--font-xs);
-  padding-left: 6rem;
-  padding-right: 6rem;
-  border: none;
-
-  &:hover {
-    background-color: var(--pink);
-    border: none;
-  }
-}
-
-.secondary-button {
-  border: solid 1px var(--main-light-color);
-  color: var(--main-light-color);
-  border-radius: 50px;
-  font-size: var(--font-xs);
-  padding-left: 6rem;
-  padding-right: 6rem;
-
-  &:hover {
-    border: solid 1px var(--pink);
-    color: var(--pink);
-  }
-}
-
 .info-text {
   font-size: var(--font-xxs);
   color: var(--main-medium-color);

@@ -1,0 +1,46 @@
+@import "../../scss/global.scss";
+
+.btn {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 6rem 1.5rem 6rem;
+  border-radius: 50px;
+  max-width: fit-content;
+  align-items: center;
+
+  &__primary {
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
+    font-size: var(--font-xs);
+    border: none;
+
+    &:hover {
+      background-color: var(--pink);
+      border: none;
+      color: var(--main-dark-color);
+    }
+  }
+
+  &__secondary {
+    border: solid 1px var(--main-light-color);
+    color: var(--main-light-color);
+    font-size: var(--font-xs);
+
+    &:hover {
+      border: solid 1px var(--pink);
+      color: var(--pink);
+    }
+  }
+
+  &__tertiary {
+    background-color: var(--green);
+    color: var(--main-dark-color);
+    font-size: var(--font-xxs);
+    padding: 1rem 2rem 1rem 2rem;
+
+    &:hover {
+      background-color: hsl(149, 37%, 43%);
+      color: var(--main-dark-color);
+    }
+  }
+}

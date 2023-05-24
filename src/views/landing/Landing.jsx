@@ -1,5 +1,10 @@
 import "./landing.scss";
 import Accordion from "../../components/accordion/Accordion";
+import PrimaryButton from "../../components/buttons/PrimaryButton";
+import SecondaryButton from "../../components/buttons/SecondaryButton";
+import IconArrow from "../../components/icons/IconArrow";
+import IconArrowBlack from "../../components/icons/IconArrowBlack";
+import TertiaryButton from "../../components/buttons/TertiaryButton";
 
 function Landing() {
   return (
@@ -12,8 +17,8 @@ function Landing() {
             <p className="info-text">BASED IN SPAIN</p>
           </div>
           <div className="buttons">
-            <button className="primary-button">Contact now</button>
-            <button className="secondary-button">Download CV</button>
+            <PrimaryButton text="Contact now" route={`/contact`} />
+            <SecondaryButton text="Download CV" />
           </div>
         </div>
       </section>
@@ -71,9 +76,10 @@ function Landing() {
                 <p className="project__title__language">Javascript | React</p>
                 <p className="project__title__exercise">1. To do list</p>
                 <div className="project__btn__container">
-                  <button className="project__btn__container__btn">
-                    View project
-                  </button>
+                  <TertiaryButton
+                    text="View project"
+                    icon={<IconArrowBlack />}
+                  />
                 </div>
               </div>
             </div>
@@ -84,9 +90,10 @@ function Landing() {
                 <p className="project__title__language">React</p>
                 <p className="project__title__exercise">2. Calculator</p>
                 <div className="project__btn__container">
-                  <button className="project__btn__container__btn">
-                    View project
-                  </button>
+                  <TertiaryButton
+                    text="View project"
+                    icon={<IconArrowBlack />}
+                  />
                 </div>
               </div>
             </div>
@@ -99,9 +106,10 @@ function Landing() {
                 <p className="project__title__language">Figma</p>
                 <p className="project__title__exercise">3. Web redesign</p>
                 <div className="project__btn__container">
-                  <button className="project__btn__container__btn">
-                    View project
-                  </button>
+                  <TertiaryButton
+                    text="View project"
+                    icon={<IconArrowBlack />}
+                  />
                 </div>
               </div>
             </div>
@@ -120,13 +128,21 @@ function Landing() {
               websites. I am passionate about learning new things and improving
               myself.
             </p>
-            <button className="about__btn">Know more</button>
+            <SecondaryButton
+              text="Know more"
+              icon={<IconArrow />}
+              route={`/about`}
+            />
           </div>
         </div>
       </section>
       <section className="centered__text">
         <p className="contact__text">LET'S CREATE TOGETHER</p>
-        <button className="contact__btn">Get in touch!</button>
+        <SecondaryButton
+          text="Get in touch"
+          icon={<IconArrow />}
+          route={`/contact`}
+        />
       </section>
     </>
   );

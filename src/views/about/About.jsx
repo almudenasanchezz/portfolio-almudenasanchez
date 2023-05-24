@@ -1,4 +1,6 @@
 import "./about.scss";
+import SecondaryButton from "../../components/buttons/SecondaryButton";
+import IconArrow from "../../components/icons/IconArrow";
 
 function About() {
   return (
@@ -67,7 +69,11 @@ function About() {
       </section>
       <section className="centered__text">
         <p className="contact__text">LET'S CREATE TOGETHER</p>
-        <button className="contact__btn">Get in touch!</button>
+        <SecondaryButton
+          text="Get in touch"
+          icon={<IconArrow />}
+          route={`/contact`}
+        />
       </section>
     </>
   );

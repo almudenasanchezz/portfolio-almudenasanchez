@@ -52,14 +52,3 @@
     padding-bottom: 40px;
   }
 }
-
-.project__btn__container {
-  display: flex;
-
-  &__btn {
-    display: flex;
-    background-color: var(--green);
-    border-radius: 50px;
-    font-size: var(--font-xxs);
-  }
-}
