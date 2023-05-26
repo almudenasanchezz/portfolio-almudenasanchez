@@ -1,6 +1,5 @@
 import "./projects.scss";
-import IconArrowBlack from "../../components/icons/IconArrowBlack";
-import TertiaryButton from "../../components/buttons/TertiaryButton";
+import TextImageBlocks from "../../components/text-image-block/TextImageBlocks";
 
 function Projects() {
   return (
@@ -21,83 +20,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="projects__container">
-          <div className="project">
-            <div className="project__image"></div>
-            <div className="project__content">
-              <div className="project__title">
-                <p className="project__title__language">Javascript | React</p>
-                <p className="project__title__exercise">1. To do list</p>
-                <div className="project__btn__container">
-                  <TertiaryButton
-                    text="View project"
-                    icon={<IconArrowBlack />}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="project">
-            <div className="project__content">
-              <div className="project__title">
-                <p className="project__title__language">React</p>
-                <p className="project__title__exercise">2. Calculator</p>
-                <div className="project__btn__container">
-                  <TertiaryButton
-                    text="View project"
-                    icon={<IconArrowBlack />}
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="project__image"></div>
-          </div>
-          <div className="project">
-            <div className="project__image"></div>
-            <div className="project__content">
-              <div className="project__title">
-                <p className="project__title__language">Figma</p>
-                <p className="project__title__exercise">3. Web redesign</p>
-                <div className="project__btn__container">
-                  <TertiaryButton
-                    text="View project"
-                    icon={<IconArrowBlack />}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="project">
-            <div className="project__content">
-              <div className="project__title">
-                <p className="project__title__language">React</p>
-                <p className="project__title__exercise">4. To do list</p>
-                <div className="project__btn__container">
-                  <TertiaryButton
-                    text="View project"
-                    icon={<IconArrowBlack />}
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="project__image"></div>
-          </div>
-          <div className="project">
-            <div className="project__image"></div>
-            <div className="project__content">
-              <div className="project__title">
-                <p className="project__title__language">Javascript</p>
-                <p className="project__title__exercise">5. To do list</p>
-                <div className="project__btn__container">
-                  <TertiaryButton
-                    text="View project"
-                    icon={<IconArrowBlack />}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <TextImageBlocks />
       </div>
     </section>
   );

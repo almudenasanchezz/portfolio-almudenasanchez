@@ -7,27 +7,6 @@ body {
   font-family: Helvetica;
 }
 
-.header {
-  padding: 8rem;
-  padding-top: 4rem;
-
-  &__nav {
-    display: flex;
-    gap: 48px;
-    float: right;
-  }
-
-  &__link {
-    color: var(--main-light-color);
-    font-size: var(--font-xxs);
-  }
-
-  &__link:hover {
-    color: var(--pink);
-    text-decoration: underline;
-  }
-}
-
 .footer {
   display: flex;
   gap: 380px;
