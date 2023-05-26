@@ -2,7 +2,7 @@ import "./text-image-block.scss";
 import TextImageBlock from "./TextImageBlock";
 import me from "../../images/me.jpg";
 
-const TextImageBlocks = () => {
+const TextImageMoreBlocks = () => {
   return (
     <div className="projects__container">
       <TextImageBlock
@@ -32,4 +32,4 @@ const TextImageBlocks = () => {
   );
 };
 
-export default TextImageBlocks;
+export default TextImageMoreBlocks;

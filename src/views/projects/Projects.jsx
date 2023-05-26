@@ -1,5 +1,5 @@
 import "./projects.scss";
-import TextImageBlocks from "../../components/text-image-block/TextImageBlocks";
+import TextImageMoreBlocks from "../../components/text-image-block/TextImageMoreBlocks";
 import SpaceTextBlock from "../../components/space-text-block/SpaceTextBlock";
 
 function Projects() {
@@ -15,7 +15,7 @@ function Projects() {
               of the project, its objectives, and the technologies and tools
               used to complete it."
         />
-        <TextImageBlocks />
+        <TextImageMoreBlocks />
       </div>
     </section>
   );

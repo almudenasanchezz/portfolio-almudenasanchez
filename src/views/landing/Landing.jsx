@@ -5,7 +5,7 @@ import SecondaryButton from "../../components/buttons/SecondaryButton";
 import IconArrow from "../../components/icons/IconArrow";
 import IconArrowBlack from "../../components/icons/IconArrowBlack";
 import TertiaryButton from "../../components/buttons/TertiaryButton";
-import TextImageBlocks from "../../components/text-image-block/TextImageBlocks";
+import TextImageLessBlocks from "../../components/text-image-block/TextImageLessBlocks";
 
 function Landing() {
   return (
@@ -69,7 +69,7 @@ function Landing() {
       </section>
       <section className="landing">
         <h2 className="h2">PROJECTS</h2>
-        <TextImageBlocks />
+        <TextImageLessBlocks />
       </section>
       <section className="landing">
         <h2 className="h2">ABOUT ME</h2>
