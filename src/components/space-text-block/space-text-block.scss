@@ -1,0 +1,20 @@
+@import "../../scss/custom-property";
+
+.space__text__block {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.text__block {
+  display: flex;
+  width: 50%;
+
+  &__paragraph {
+    font-size: var(--font-xs);
+    line-height: 41px;
+    color: var(--main-medium-color);
+    font-weight: var(--regular-font-weight);
+    margin: 0;
+  }
+}
