@@ -72,7 +72,7 @@ function About() {
         <SecondaryButton
           text="Get in touch"
           icon={<IconArrow />}
-          route={`/contact`}
+          to={`/contact`}
         />
       </section>
     </>

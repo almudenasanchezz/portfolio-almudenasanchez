@@ -50,3 +50,22 @@
     padding-bottom: 40px;
   }
 }
+
+.about__content {
+  width: 50%;
+  height: 100%;
+
+  &__text {
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
+
+.text {
+  font-size: var(--font-xs);
+  color: var(--main-light-color);
+  margin: 0;
+}

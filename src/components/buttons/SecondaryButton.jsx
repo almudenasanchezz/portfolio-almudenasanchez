@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SecondaryButton = (props) => {
   return (
-    <Link className="btn btn__secondary" to={props.route}>
+    <Link className="btn btn__secondary" to={props.to}>
       {props.text}
       {props.icon}
     </Link>

@@ -8,9 +8,7 @@ const TextBlock = (props) => {
       <div className="project__title">
         <p className="project__title__language">{props.language}</p>
         <p className="project__title__exercise">{props.title}</p>
-        <div className="project__btn__container">
-          <TertiaryButton text="View project" icon={<IconArrowBlack />} />
-        </div>
+        <TertiaryButton text="View project" icon={<IconArrowBlack />} />
       </div>
     </div>
   );
