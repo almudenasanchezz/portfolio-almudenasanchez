@@ -1,6 +1,8 @@
 import "./about.scss";
-import SecondaryButton from "../../components/buttons/SecondaryButton";
+import Button from "../../components/buttons/Button";
 import IconArrow from "../../components/icons/IconArrow";
+import TextImageAboutBlock from "../../components/text-image-block/TextImageAboutBlock";
+import me from "../../images/me.jpg";
 
 function About() {
   return (
@@ -9,16 +11,20 @@ function About() {
         <h2 className="h2">ABOUT</h2>
         <div className="intro__about">
           <div className="intro__about__left"></div>
-          <div className="intro__about__right">
-            <div className="intro__about__right__photo"></div>
-            <div className="intro__about__right__text">
-              I am a frontend web developer and ui designer with a background as
+          <TextImageAboutBlock
+            column="column__true"
+            textColumn="about__content__column"
+            text="about__content__column__text"
+            columnImage="project__image__column"
+            paragraph="I am a frontend web developer and ui designer with a background as
               an engineer. I have always been passionate about technology and
               design, which is why I enjoy creating attractive and accessible
               websites. I am passionate about learning new things and improving
-              myself.
-            </div>
-          </div>
+              myself."
+            type="btn__none"
+            src={me}
+            alt="a photo of me"
+          />
         </div>
       </section>
       <section className="landing">
@@ -69,7 +75,8 @@ function About() {
       </section>
       <section className="centered__text">
         <p className="contact__text">LET'S CREATE TOGETHER</p>
-        <SecondaryButton
+        <Button
+          type="btn btn__secondary"
           text="Get in touch"
           icon={<IconArrow />}
           to={`/contact`}

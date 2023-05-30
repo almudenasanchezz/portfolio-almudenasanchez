@@ -1,13 +1,13 @@
 import "./Button.scss";
 import { Link } from "react-router-dom";
 
-const PrimaryButton = (props) => {
+const Button = (props) => {
   return (
-    <Link className="btn btn__primary" to={props.to}>
+    <Link className={props.type} to={props.to}>
       {props.text}
       {props.icon}
     </Link>
   );
 };
 
-export default PrimaryButton;
+export default Button;

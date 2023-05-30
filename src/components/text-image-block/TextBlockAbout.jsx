@@ -1,13 +1,18 @@
 import "./text-image-block.scss";
-import SecondaryButton from "../buttons/SecondaryButton";
+import Button from "../buttons/Button";
 import IconArrow from "../icons/IconArrow";
 
 const TextBlockAbout = (props) => {
   return (
-    <div className="about__content">
-      <div className="about__content__text">
+    <div className={props.textColumn}>
+      <div className={props.text}>
         <p className="text">{props.paragraph}</p>
-        <SecondaryButton to={`/about`} text="Know more" icon={<IconArrow />} />
+        <Button
+          type={props.type}
+          to={`/about`}
+          text="Know more"
+          icon={<IconArrow />}
+        />
       </div>
     </div>
   );

@@ -1,10 +1,7 @@
 import "./landing.scss";
 import Accordion from "../../components/accordion/Accordion";
-import PrimaryButton from "../../components/buttons/PrimaryButton";
-import SecondaryButton from "../../components/buttons/SecondaryButton";
+import Button from "../../components/buttons/Button";
 import IconArrow from "../../components/icons/IconArrow";
-import IconArrowBlack from "../../components/icons/IconArrowBlack";
-import TertiaryButton from "../../components/buttons/TertiaryButton";
 import TextImageLessBlocks from "../../components/text-image-block/TextImageLessBlocks";
 import TextImageAboutBlock from "../../components/text-image-block/TextImageAboutBlock";
 import me from "../../images/me.jpg";
@@ -20,8 +17,12 @@ function Landing() {
             <p className="info-text">BASED IN SPAIN</p>
           </div>
           <div className="buttons">
-            <PrimaryButton text="Contact now" to={`/contact`} />
-            <SecondaryButton text="Download CV" />
+            <Button
+              type="btn btn__primary"
+              text="Contact now"
+              to={`/contact`}
+            />
+            <Button type="btn btn__secondary" text="Download CV" />
           </div>
         </div>
       </section>
@@ -76,6 +77,10 @@ function Landing() {
       <section className="landing">
         <h2 className="h2">ABOUT ME</h2>
         <TextImageAboutBlock
+          column="project"
+          columnImage="project__image"
+          textColumn="about__content"
+          text="about__content__text"
           src={me}
           alt="A personal photo of me"
           paragraph="I am a frontend web developer and ui designer with a background as
@@ -83,11 +88,13 @@ function Landing() {
               design, which is why I enjoy creating attractive and accessible
               websites. I am passionate about learning new things and improving
               myself."
+          type="btn btn__secondary"
         />
       </section>
       <section className="centered__text">
         <p className="contact__text">LET'S CREATE TOGETHER</p>
-        <SecondaryButton
+        <Button
+          type="btn btn__secondary"
           text="Get in touch"
           icon={<IconArrow />}
           to={`/contact`}

@@ -9,14 +9,21 @@ const TextImageLessBlocks = () => {
         language="React | Javascript"
         title="1. To do list"
         src={me}
+        type="btn btn__tertiary"
       />
       <TextImageBlock
         imageToRight
         language="React"
         title="2. Calculator"
         src={me}
+        type="btn btn__tertiary"
       />
-      <TextImageBlock language="Figma" title="3. Web redesign" src={me} />
+      <TextImageBlock
+        language="Figma"
+        title="3. Web redesign"
+        src={me}
+        type="btn btn__tertiary"
+      />
     </div>
   );
 };

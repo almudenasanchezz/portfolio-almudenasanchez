@@ -2,7 +2,7 @@ import "./text-image-block.scss";
 
 const ImageBlock = (props) => {
   return (
-    <div className="project__image">
+    <div className={props.columnImage}>
       <img className="img" src={props.src} alt={props.alt} />
     </div>
   );
