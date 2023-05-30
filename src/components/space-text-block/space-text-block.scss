@@ -1,4 +1,5 @@
 @import "../../scss/custom-property";
+@import "../../scss/global.scss";
 
 .space__text__block {
   display: flex;
@@ -9,6 +10,34 @@
 .text__block {
   display: flex;
   width: 50%;
+  flex-direction: column;
+  gap: 100px;
+
+  &__top {
+    display: flex;
+    gap: 100px;
+
+    &__left,
+    &__right {
+      width: 50%;
+      color: var(--main-medium-color);
+      font-weight: var(--regular-font-weight);
+      font-size: var(--font-xs);
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    gap: 100px;
+
+    &__left,
+    &__right {
+      width: 50%;
+      color: var(--main-medium-color);
+      font-weight: var(--regular-font-weight);
+      font-size: var(--font-xs);
+    }
+  }
 
   &__paragraph {
     font-size: var(--font-xs);
@@ -16,5 +45,9 @@
     color: var(--main-medium-color);
     font-weight: var(--regular-font-weight);
     margin: 0;
+  }
+
+  &__text {
+    font-size: var(--font-xxs);
   }
 }

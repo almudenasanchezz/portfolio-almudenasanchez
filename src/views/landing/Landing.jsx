@@ -5,6 +5,7 @@ import IconArrow from "../../components/icons/IconArrow";
 import TextImageLessBlocks from "../../components/text-image-block/TextImageLessBlocks";
 import TextImageAboutBlock from "../../components/text-image-block/TextImageAboutBlock";
 import me from "../../images/me.jpg";
+import Space4TextBlock from "../../components/space-text-block/Space4TextBlock";
 
 function Landing() {
   return (
@@ -32,43 +33,7 @@ function Landing() {
       </section>
       <section className="landing">
         <h2 className="h2">PROCESS</h2>
-        <div className="containers">
-          <div className="empty__container"></div>
-          <div className="content__container">
-            <div className="content__container__top">
-              <div className="content__text">
-                <h4 className="h4">Briefing</h4>
-                <p className="paragraph">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque ac malesuada dolor, quis laoreet purus.
-                </p>
-              </div>
-              <div className="content__text">
-                <h4 className="h4">Analysis</h4>
-                <p className="paragraph">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque ac malesuada dolor, quis laoreet purus.
-                </p>
-              </div>
-            </div>
-            <div className="content__container__bottom">
-              <div className="content__text">
-                <h4 className="h4">Prototyping</h4>
-                <p className="paragraph">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque ac malesuada dolor, quis laoreet purus.
-                </p>
-              </div>
-              <div className="content__text">
-                <h4 className="h4">Final Part</h4>
-                <p className="paragraph">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque ac malesuada dolor, quis laoreet purus.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Space4TextBlock />
       </section>
       <section className="landing">
         <h2 className="h2">PROJECTS</h2>
