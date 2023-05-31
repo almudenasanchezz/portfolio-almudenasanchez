@@ -16,6 +16,7 @@ const TextImageBlock = (props) => {
         language={props.language}
         title={props.title}
         type={props.type}
+        sizeIcon={props.sizeIcon}
       />
       {props.imageToRight && (
         <ImageBlock

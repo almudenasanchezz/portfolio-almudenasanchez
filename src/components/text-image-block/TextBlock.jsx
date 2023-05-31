@@ -1,5 +1,5 @@
 import "./text-image-block.scss";
-import IconArrowBlack from "../icons/IconArrowBlack";
+import IconArrow from "../icons/IconArrow";
 import Button from "../buttons/Button";
 
 const TextBlock = (props) => {
@@ -11,7 +11,7 @@ const TextBlock = (props) => {
         <Button
           type={props.type}
           text="View project"
-          icon={<IconArrowBlack />}
+          icon={<IconArrow sizeIcon={props.sizeIcon} />}
         />
       </div>
     </div>

@@ -1,18 +1,23 @@
-function IconArrow() {
+import "./icon.scss";
+
+function IconArrow(props) {
   return (
     <svg
-      width="37"
-      height="37"
-      viewBox="0 0 25 25"
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      width="2rem"
+      height="2rem"
+      fill="none"
+      viewBox="0 0 25 25"
+      className={props.sizeIcon}
     >
       <path
-        d="M5.06445 18.4787L15.6545 7.88867H9.06445V5.88867H19.0645V15.8887H17.0645V9.29867L6.47445 19.8887L5.06445 18.4787Z"
-        fill="white"
+        fill="currentColor"
+        d="m5.064 18.479 10.59-10.59h-6.59v-2h10v10h-2v-6.59l-10.59 10.59-1.41-1.41Z"
       />
     </svg>
   );
 }
 
 export default IconArrow;
+
+//modificar todos los botones donde esté el icono pequeño y poner el icono grande con la clase que haga que se vea pequeño

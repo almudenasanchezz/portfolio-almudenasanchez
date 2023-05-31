@@ -1,0 +1,50 @@
+@import "../../scss/global.scss";
+@import "../../scss/custom-property";
+
+.blocks__container {
+  display: flex;
+  gap: 64px;
+  margin-bottom: 120px;
+}
+
+.block {
+  display: flex;
+  background-color: var(--main-light-color);
+  border-radius: 20px;
+  flex-direction: column;
+  height: 380px;
+  width: -webkit-fill-available;
+}
+
+.info__block {
+  padding: 24px;
+  font-size: var(--font-xs);
+
+  &__text {
+    margin: 0 0 16px 0;
+  }
+}
+
+.color__block-red {
+  background-color: var(--red);
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+}
+
+.color__block-green {
+  background-color: var(--green);
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+}
+
+.color__block-pink {
+  background-color: var(--pink);
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+}
+
+.color__block-blue {
+  background-color: var(--blue);
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+}

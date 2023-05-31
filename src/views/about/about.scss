@@ -23,55 +23,6 @@
   color: white;
 }
 
-/* hard skills */
-.hs__container {
-  display: flex;
-  gap: 64px;
-  margin-bottom: 275px;
-}
-
-.hskill {
-  display: flex;
-  background-color: var(--main-light-color);
-  border-radius: 20px;
-  flex-direction: column;
-  height: 380px;
-  width: -webkit-fill-available;
-}
-
-.hskill__color-red {
-  background-color: var(--red);
-  height: 50%;
-  border-radius: 20px 20px 0 0;
-}
-
-.hskill__color-green {
-  background-color: var(--green);
-  height: 50%;
-  border-radius: 20px 20px 0 0;
-}
-
-.hskill__color-pink {
-  background-color: var(--pink);
-  height: 50%;
-  border-radius: 20px 20px 0 0;
-}
-
-.hskill__color-blue {
-  background-color: var(--blue);
-  height: 50%;
-  border-radius: 20px 20px 0 0;
-}
-
-.hskill__info {
-  padding: 24px;
-  font-size: var(--font-xs);
-}
-
-.hskill__info__text {
-  margin: 0 0 16px 0;
-}
-
 .description__text {
   font-size: var(--font-xs);
   color: white;

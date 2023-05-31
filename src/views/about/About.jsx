@@ -3,6 +3,7 @@ import Button from "../../components/buttons/Button";
 import IconArrow from "../../components/icons/IconArrow";
 import TextImageAboutBlock from "../../components/text-image-block/TextImageAboutBlock";
 import me from "../../images/me.jpg";
+import ColorTextBlocks from "../../components/color-text-block/ColorTextBlocks";
 
 function About() {
   return (
@@ -29,35 +30,7 @@ function About() {
       </section>
       <section className="landing">
         <h2 className="h2">HARD SKILLS</h2>
-        <div className="hs__container">
-          <div className="hskill">
-            <div className="hskill__color-red"></div>
-            <div className="hskill__info">
-              <p className="hskill__info__text">HTML</p>
-            </div>
-          </div>
-          <div className="hskill">
-            <div className="hskill__color-green"></div>
-            <div className="hskill__info">
-              <p className="hskill__info__text">CSS</p>
-              <p className="hskill__info__text">SCSS</p>
-            </div>
-          </div>
-          <div className="hskill">
-            <div className="hskill__color-pink"></div>
-            <div className="hskill__info">
-              <p className="hskill__info__text">JAVASCRIPT</p>
-              <p className="hskill__info__text">REACT</p>
-            </div>
-          </div>
-          <div className="hskill">
-            <div className="hskill__color-blue"></div>
-            <div className="hskill__info">
-              <p className="hskill__info__text">FIGMA</p>
-              <p className="hskill__info__text">ADOBE</p>
-            </div>
-          </div>
-        </div>
+        <ColorTextBlocks />
       </section>
       <section className="landing">
         <h2 className="h2">SOFT SKILLS</h2>
