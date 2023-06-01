@@ -10,6 +10,7 @@ const TextBlock = (props) => {
         <p className="project__title__exercise">{props.title}</p>
         <Button
           type={props.type}
+          to={props.to}
           text="View project"
           icon={<IconArrow sizeIcon={props.sizeIcon} />}
         />

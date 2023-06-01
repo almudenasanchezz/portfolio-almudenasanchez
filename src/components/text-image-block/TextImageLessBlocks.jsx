@@ -11,6 +11,7 @@ const TextImageLessBlocks = () => {
         src={me}
         type="btn btn__tertiary"
         sizeIcon="small__icon"
+        to={`/to-do-project`}
       />
       <TextImageBlock
         imageToRight
@@ -19,6 +20,7 @@ const TextImageLessBlocks = () => {
         src={me}
         type="btn btn__tertiary"
         sizeIcon="small__icon"
+        to={`/calculator-project`}
       />
       <TextImageBlock
         language="Figma"
@@ -26,6 +28,7 @@ const TextImageLessBlocks = () => {
         src={me}
         type="btn btn__tertiary"
         sizeIcon="small__icon"
+        to={`/another-project`}
       />
     </div>
   );

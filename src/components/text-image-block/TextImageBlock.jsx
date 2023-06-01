@@ -15,6 +15,7 @@ const TextImageBlock = (props) => {
       <TextBlock
         language={props.language}
         title={props.title}
+        to={props.to}
         type={props.type}
         sizeIcon={props.sizeIcon}
       />
