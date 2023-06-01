@@ -4,6 +4,7 @@ import IconArrow from "../../components/icons/IconArrow";
 import TextImageAboutBlock from "../../components/text-image-block/TextImageAboutBlock";
 import me from "../../images/me.jpg";
 import ColorTextBlocks from "../../components/color-text-block/ColorTextBlocks";
+import AccordionAbout from "../../components/accordion/AccordionAbout";
 
 function About() {
   return (
@@ -34,6 +35,7 @@ function About() {
       </section>
       <section className="landing">
         <h2 className="h2">SOFT SKILLS</h2>
+        <AccordionAbout />
       </section>
       <section className="landing">
         <p className="description__text">
