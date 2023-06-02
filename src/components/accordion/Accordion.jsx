@@ -18,7 +18,7 @@ function Accordion() {
         <div className="item">
           <div className="title" onClick={() => toggle(i)}>
             <h3 className="h3">{item.title}</h3>
-            <span className="plus__icon">{selected === i ? "-" : "+"}</span>
+            <span className="h3">{selected === i ? "-" : "+"}</span>
           </div>
           <div className={selected === i ? "content show" : "content"}>
             {item.content}

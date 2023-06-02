@@ -1,30 +1,46 @@
 import "./space-text-block.scss";
 import ProcessPart from "./ProcessPart";
 
-const Space4TextBlock = (props) => {
+const Space4TextBlock = () => {
   return (
     <div className="space__text__block">
       <article className="text__block">
         <div className="text__block__top">
           <ProcessPart
-            h4="Briefing"
+            showCategory="dont__show"
+            textBlock="text__block__top__left"
+            title="h4"
+            titleText="Briefing"
+            description="text__block__text"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Quisque ac malesuada dolor, quis laoreet purus."
           />
           <ProcessPart
-            h4="Analysis"
+            showCategory="dont__show"
+            textBlock="text__block__top__left"
+            title="h4"
+            titleText="Analysis"
+            description="text__block__text"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Quisque ac malesuada dolor, quis laoreet purus."
           />
         </div>
         <div className="text__block__bottom">
           <ProcessPart
-            h4="Prototyping"
+            showCategory="dont__show"
+            textBlock="text__block__top__left"
+            title="h4"
+            titleText="Prototyping"
+            description="text__block__text"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Quisque ac malesuada dolor, quis laoreet purus."
           />
           <ProcessPart
-            h4="Final Part"
+            showCategory="dont__show"
+            textBlock="text__block__top__left"
+            title="h4"
+            titleText="Final Part"
+            description="text__block__text"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Quisque ac malesuada dolor, quis laoreet purus."
           />

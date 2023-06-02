@@ -49,5 +49,31 @@
 
   &__text {
     font-size: var(--font-xxs);
+    color: var(--main-medium-color);
+    font-weight: var(--regular-font-weight);
   }
+}
+
+.dont__show {
+  display: none;
+}
+
+.show__category {
+  color: #969696;
+  font-size: var(--font-xxs);
+  font-weight: var(--regular-font-weight);
+  border-bottom: solid 1px var(--main-light-color);
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.trio__single__block {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+}
+
+.trio__block {
+  display: flex;
+  gap: 64px;
 }

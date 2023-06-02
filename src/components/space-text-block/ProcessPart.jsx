@@ -2,10 +2,13 @@ import "./space-text-block.scss";
 
 const ProcessPart = (props) => {
   return (
-    <div className="text__block__top__left">
-      <h4 className="h4">{props.h4}</h4>
-      <p className="text__block__text">{props.text}</p>
-    </div>
+    <>
+      <div className={props.textBlock}>
+        <p className={props.showCategory}>{props.category}</p>
+        <h4 className={props.title}>{props.titleText}</h4>
+        <p className="text__block__text">{props.text}</p>
+      </div>
+    </>
   );
 };
 
