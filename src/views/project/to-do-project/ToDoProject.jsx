@@ -47,6 +47,20 @@ function ToDoProject(props) {
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. Duis imperdiet sed odio a semper. In hac habitasse platea dictumst. Sed pellentesque accumsan tortor a pretium. Mauris lobortis enim eu ipsum mollis dictum. Nulla varius nisl erat, eget pharetra risus viverra sit. "
         />
       </section>
+      <section className="center__section landing">
+        <p className="h1">GALLERY</p>
+        <div className="full__page__container">
+          <div className="full__page__img">
+            <img src="" alt="" />
+          </div>
+          <div className="full__page__img">
+            <img src="" alt="" />
+          </div>
+          <div className="full__page__img">
+            <img src="" alt="" />
+          </div>
+        </div>
+      </section>
     </>
   );
 }
