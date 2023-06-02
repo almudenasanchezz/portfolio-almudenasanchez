@@ -3,20 +3,69 @@
 .topbar {
   padding: 8rem;
   padding-top: 4rem;
+  display: flex;
+  justify-content: flex-end;
 
   &__nav {
     display: flex;
     gap: 48px;
-    float: right;
+
+    @media (max-width: 600px) {
+      gap: 20px;
+    }
+
+    &__close {
+      display: none;
+      color: var(--main-light-color);
+      font-size: var(--font-xxs);
+      background: none;
+    }
+
+    @media (max-width: 600px) {
+      position: fixed;
+      flex-direction: column;
+      background: var(--main-dark-color);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transform: translateX(100%);
+      padding-left: 40px;
+
+      &__show {
+        transform: translateX(0);
+      }
+
+      &__close {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
   }
 
   &__link {
     color: var(--main-light-color);
     font-size: var(--font-xxs);
+
+    @media (max-width: 600px) {
+      font-size: var(--font-s);
+      text-transform: uppercase;
+    }
   }
 
   &__link:hover {
     color: var(--pink);
     text-decoration: underline;
+  }
+}
+
+.show__menu {
+  display: none;
+  color: var(--main-light-color);
+  font-size: var(--font-xxs);
+  background: none;
+
+  @media (max-width: 600px) {
+    display: inline-block;
   }
 }
