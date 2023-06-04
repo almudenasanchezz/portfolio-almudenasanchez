@@ -5,10 +5,18 @@
 .intro__about {
   display: flex;
   padding-bottom: 200px;
+  gap: 160px;
 }
 
 .intro__about__left {
   width: 50%;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+  }
 }
 
 .intro__about__right {
@@ -30,4 +38,44 @@
   margin: auto;
   text-align: center;
   max-width: 50%;
+}
+
+.first__word {
+  font-style: italic;
+  color: var(--red);
+  font-size: var(--font-m);
+  font-family: var(--main-font);
+  font-weight: var(--regular-font-weight);
+  margin: 0;
+}
+
+.second__word {
+  display: flex;
+  font-style: italic;
+  color: var(--pink);
+  font-size: var(--font-m);
+  font-family: var(--main-font);
+  font-weight: var(--regular-font-weight);
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.third__word {
+  display: flex;
+  font-style: italic;
+  color: var(--main-light-color);
+  font-size: var(--font-l);
+  font-family: var(--main-font);
+  font-weight: var(--regular-font-weight);
+  justify-content: center;
+  margin: 0;
+}
+
+.fourth__word {
+  font-style: italic;
+  color: var(--green);
+  font-size: var(--font-m);
+  font-family: var(--main-font);
+  font-weight: var(--regular-font-weight);
+  margin: 0;
 }

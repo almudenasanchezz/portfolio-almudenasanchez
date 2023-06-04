@@ -10,9 +10,15 @@ function About() {
   return (
     <>
       <section className="landing">
-        <h2 className="h2">ABOUT</h2>
         <div className="intro__about">
-          <div className="intro__about__left"></div>
+          <div className="intro__about__left">
+            <div className="intro__about__left__content">
+              <p className="first__word">creative,</p>
+              <p className="second__word">innovative</p>
+              <p className="third__word">&</p>
+              <p className="fourth__word">tech lover</p>
+            </div>
+          </div>
           <TextImageAboutBlock
             column="column__true"
             textColumn="about__content__column"
