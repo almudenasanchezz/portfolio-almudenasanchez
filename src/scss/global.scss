@@ -1,6 +1,7 @@
 @import "./custom-property";
 @import "./utilities";
 @import "./variables";
+@import "./mixins";
 
 body {
   background-color: var(--main-dark-color);
@@ -11,8 +12,14 @@ body {
   display: flex;
   gap: 380px;
   background-color: var(--main-medium-color);
-  padding: 2rem;
-  justify-content: center;
+  padding: 2rem 8rem;
+  justify-content: space-between;
+
+  @include bp($bp-mobile) {
+    gap: 50px;
+    justify-content: space-between;
+    padding: 2rem;
+  }
 
   &__nav {
     display: flex;
@@ -22,6 +29,10 @@ body {
   &__link {
     color: var(--main-dark-color);
     font-size: var(--font-xxs);
+
+    @include bp($bp-mobile) {
+      font-size: 16px;
+    }
   }
 
   &__link:hover {
@@ -32,10 +43,19 @@ body {
 .logo {
   color: var(--main-dark-color);
   font-size: var(--font-s);
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-xs);
+  }
 }
 
 .landing {
   padding: 2rem 8rem 12rem 8rem;
+
+  @include bp($bp-mobile) {
+    width: 100%;
+    padding: 2rem 0 12rem 0;
+  }
 }
 
 .h1 {
@@ -68,6 +88,12 @@ body {
   color: var(--main-medium-color);
   margin-bottom: 8rem;
   margin-top: 0;
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-s);
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+  }
 }
 
 .h3 {

@@ -5,6 +5,10 @@
   gap: 418px;
   display: flex;
   flex-direction: column;
+
+  @include bp($bp-mobile) {
+    gap: 220px;
+  }
 }
 
 /* .projects__container {

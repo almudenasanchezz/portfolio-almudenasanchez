@@ -1,10 +1,15 @@
 @import "../../scss/custom-property";
+@import "../../scss/global.scss";
 
 .topbar {
   padding: 8rem;
   padding-top: 4rem;
   display: flex;
   justify-content: flex-end;
+
+  @include bp($bp-mobile) {
+    padding: 2rem;
+  }
 
   &__nav {
     display: flex;
@@ -19,6 +24,7 @@
       color: var(--main-light-color);
       font-size: var(--font-xxs);
       background: none;
+      padding: 2rem;
     }
 
     @media (max-width: 600px) {
@@ -67,5 +73,9 @@
 
   @media (max-width: 600px) {
     display: inline-block;
+  }
+
+  @include bp($bp-mobile) {
+    padding: 0;
   }
 }

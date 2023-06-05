@@ -13,6 +13,10 @@
   flex-direction: column;
   gap: 100px;
 
+  @include bp($bp-mobile) {
+    width: 100%;
+  }
+
   &__top {
     display: flex;
     gap: 100px;
@@ -45,6 +49,12 @@
     color: var(--main-medium-color);
     font-weight: var(--regular-font-weight);
     margin: 0;
+
+    @include bp($bp-mobile) {
+      font-size: 16px;
+      padding: 0 2rem;
+      line-height: 24px;
+    }
   }
 
   &__text {
