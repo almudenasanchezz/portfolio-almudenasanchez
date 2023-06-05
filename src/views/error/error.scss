@@ -1,0 +1,45 @@
+@import "../../scss/global.scss";
+
+.red {
+  color: var(--red);
+  font-size: 200px;
+}
+
+.pink {
+  color: var(--pink);
+  font-size: 200px;
+}
+
+.green {
+  color: var(--green);
+  font-size: 200px;
+}
+
+.blue {
+  color: var(--blue);
+  font-size: 200px;
+}
+
+.white {
+  color: var(--main-light-color);
+  font-size: 200px;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 120px;
+}
+
+.error__text {
+  text-align: center;
+}
+
+.error__phrase {
+  font-size: var(--font-s);
+  color: var(--main-light-color);
+  margin: 0;
+}

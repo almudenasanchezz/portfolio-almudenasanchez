@@ -13,13 +13,25 @@ function App() {
       <footer className="footer">
         <div className="logo">MI LOGO</div>
         <nav className="footer__nav">
-          <Link className="footer__link" to="/list">
+          <Link
+            className="footer__link"
+            to={`https://github.com/almudenasanchezz`}
+            target="_blanck"
+          >
             Github
           </Link>
-          <Link className="footer__link" to="/list">
+          <Link
+            className="footer__link"
+            to={`https://www.linkedin.com/in/almudena-sánchez-gallego-0a0bb9213/`}
+            target="_blanck"
+          >
             LinkedIn
           </Link>
-          <Link className="footer__link" to="/list">
+          <Link
+            className="footer__link"
+            to={`https://www.behance.net/almudenasanchez`}
+            target="_blanck"
+          >
             Behance
           </Link>
         </nav>
