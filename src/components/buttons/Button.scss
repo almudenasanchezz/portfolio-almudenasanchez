@@ -8,6 +8,10 @@
   max-width: fit-content;
   align-items: center;
 
+  @include bp($bp-mobile) {
+    padding: 0.5rem 2rem;
+  }
+
   &__primary {
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
@@ -25,6 +29,10 @@
     border: solid 1px var(--main-light-color);
     color: var(--main-light-color);
     font-size: var(--font-xs);
+
+    @include bp($bp-mobile) {
+      font-size: 16px;
+    }
 
     &:hover {
       border: solid 1px var(--pink);

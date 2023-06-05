@@ -3,26 +3,46 @@
 .red {
   color: var(--red);
   font-size: 200px;
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-l);
+  }
 }
 
 .pink {
   color: var(--pink);
   font-size: 200px;
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-l);
+  }
 }
 
 .green {
   color: var(--green);
   font-size: 200px;
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-l);
+  }
 }
 
 .blue {
   color: var(--blue);
   font-size: 200px;
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-l);
+  }
 }
 
 .white {
   color: var(--main-light-color);
   font-size: 200px;
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-l);
+  }
 }
 
 .centered {
@@ -42,4 +62,8 @@
   font-size: var(--font-s);
   color: var(--main-light-color);
   margin: 0;
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-xs);
+  }
 }
