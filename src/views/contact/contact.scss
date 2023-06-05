@@ -1,21 +1,19 @@
 @import "../../scss/global.scss";
 
-.centered {
+.contact__content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__buttons {
+  display: flex;
   flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 260px;
+  gap: 60px;
+  align-items: center;
 }
 
-.email {
-  font-size: 48px;
-  color: white;
-  text-decoration: underline;
-  font-weight: 400;
-}
-
-.email:hover {
-  color: var(--pink);
+.circles {
+  position: absolute;
+  left: 0;
+  top: 52%;
 }
