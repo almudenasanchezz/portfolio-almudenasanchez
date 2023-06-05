@@ -16,7 +16,7 @@ function Error() {
       </div>
       <Button
         type="btn btn__secondary"
-        to="/home"
+        to={`/`}
         text="BACK HOME"
         icon={<IconArrow />}
       />
