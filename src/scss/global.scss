@@ -9,22 +9,29 @@ body {
 }
 
 .footer {
-  display: flex;
-  gap: 380px;
+  /* gap: 380px; */
   background-color: var(--main-medium-color);
-  padding: 2rem 8rem;
-  justify-content: space-between;
+  /* padding: 2rem 8rem; */
 
-  @include bp($bp-tablet) {
-    font-size: var(--font-xxs);
-    gap: 120px;
-    padding: 2rem 4rem;
-  }
+  width: 100%;
 
-  @include bp($bp-mobile) {
-    gap: 50px;
+  &__content {
+    display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 2rem 8rem;
+
+    @include bp($bp-tablet) {
+      font-size: var(--font-xxs);
+      /* gap: 120px; */
+      padding: 2rem 4rem;
+      justify-content: space-between;
+    }
+
+    @include bp($bp-mobile) {
+      /* gap: 50px; */
+      justify-content: space-between;
+      padding: 2rem;
+    }
   }
 
   &__nav {

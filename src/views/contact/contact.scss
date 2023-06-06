@@ -4,6 +4,11 @@
   display: flex;
   justify-content: space-between;
 
+  @include bp($bp-tablet) {
+    flex-direction: column;
+    align-items: center;
+  }
+
   @include bp($bp-mobile) {
     flex-direction: column;
     align-items: center;
@@ -16,6 +21,11 @@
   gap: 60px;
   align-items: center;
 
+  @include bp($bp-tablet) {
+    gap: 48px;
+    margin-bottom: 50px;
+  }
+
   @include bp($bp-mobile) {
     gap: 42px;
     margin-bottom: 180px;
@@ -25,7 +35,13 @@
 .circles {
   position: absolute;
   left: 0;
-  top: 52%;
+  top: 55%;
+
+  @include bp($bp-tablet) {
+    width: 100%;
+    height: 40%;
+    top: 80%;
+  }
 
   @include bp($bp-mobile) {
     width: 100%;
