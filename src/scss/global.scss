@@ -76,6 +76,13 @@ body {
   margin-bottom: 4rem;
   color: var(--main-medium-color);
 
+  @include bp($bp-tablet) {
+    font-size: var(--font-l);
+    padding: 0 4rem;
+    margin-bottom: 2rem;
+    padding-top: 6rem;
+  }
+
   @include bp($bp-mobile) {
     font-size: var(--font-s);
     padding: 0 2rem;
@@ -93,6 +100,10 @@ body {
 .buttons {
   display: flex;
   gap: 33px;
+
+  @include bp($bp-tablet) {
+    justify-content: space-between;
+  }
 
   @include bp($bp-mobile) {
     align-items: center;

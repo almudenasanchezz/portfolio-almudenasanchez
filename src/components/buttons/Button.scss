@@ -9,6 +9,10 @@
   align-items: center;
   font-size: var(--font-xs);
 
+  @include bp($bp-tablet) {
+    font-size: var(--font-xxs);
+  }
+
   @include bp($bp-mobile) {
     padding: 0.5rem 1.5rem;
     font-size: 16px;

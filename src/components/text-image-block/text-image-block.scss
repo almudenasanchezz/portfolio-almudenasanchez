@@ -13,7 +13,7 @@
   height: 732px;
 
   @include bp($bp-tablet) {
-    height: fit-content;
+    height: 432px;
   }
 
   @include bp($bp-mobile) {
@@ -87,6 +87,10 @@
     justify-content: space-between;
     height: 100%;
 
+    @include bp($bp-tablet) {
+      padding: 0 2rem;
+    }
+
     @include bp($bp-mobile) {
       padding: 2rem;
       gap: 48px;
@@ -98,6 +102,10 @@
   font-size: var(--font-xs);
   color: var(--main-light-color);
   margin: 0;
+
+  @include bp($bp-tablet) {
+    font-size: var(--font-xxs);
+  }
 
   @include bp($bp-mobile) {
     font-size: 16px;
