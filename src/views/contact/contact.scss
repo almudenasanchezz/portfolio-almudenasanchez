@@ -3,6 +3,11 @@
 .contact__content {
   display: flex;
   justify-content: space-between;
+
+  @include bp($bp-mobile) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .contact__buttons {
@@ -10,10 +15,21 @@
   flex-direction: column;
   gap: 60px;
   align-items: center;
+
+  @include bp($bp-mobile) {
+    gap: 42px;
+    margin-bottom: 180px;
+  }
 }
 
 .circles {
   position: absolute;
   left: 0;
   top: 52%;
+
+  @include bp($bp-mobile) {
+    width: 100%;
+    height: 40%;
+    top: 80%;
+  }
 }
