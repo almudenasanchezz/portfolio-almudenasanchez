@@ -1,5 +1,11 @@
 @import "../../scss/global.scss";
 
+.accordion {
+  @include bp($bp-mobile) {
+    padding: 0 2rem;
+  }
+}
+
 .item {
   color: white;
   border-top: solid 1px white;

@@ -21,11 +21,16 @@
   @include bp($bp-mobile) {
     width: 100%;
     padding: 0 2rem;
+    gap: 48px;
   }
 
   &__top {
     display: flex;
     gap: 100px;
+
+    @include bp($bp-mobile) {
+      gap: 48px;
+    }
 
     &__left,
     &__right {
@@ -39,6 +44,10 @@
   &__bottom {
     display: flex;
     gap: 100px;
+
+    @include bp($bp-mobile) {
+      gap: 48px;
+    }
 
     &__left,
     &__right {
@@ -63,7 +72,7 @@
 
     @include bp($bp-mobile) {
       font-size: 16px;
-      
+
       line-height: 24px;
     }
   }
@@ -72,6 +81,10 @@
     font-size: var(--font-xxs);
     color: var(--main-medium-color);
     font-weight: var(--regular-font-weight);
+
+    @include bp($bp-mobile) {
+      font-size: 16px;
+    }
   }
 }
 

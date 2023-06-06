@@ -75,6 +75,13 @@ body {
   margin-top: 0;
   margin-bottom: 4rem;
   color: var(--main-medium-color);
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-s);
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+    padding-top: 10rem;
+  }
 }
 
 .info {
@@ -86,11 +93,21 @@ body {
 .buttons {
   display: flex;
   gap: 33px;
+
+  @include bp($bp-mobile) {
+    align-items: center;
+    gap: 0;
+    justify-content: space-between;
+  }
 }
 
 .info-text {
   font-size: var(--font-xxs);
   color: var(--main-medium-color);
+
+  @include bp($bp-mobile) {
+    font-size: 12px;
+  }
 }
 
 .h2 {
@@ -118,6 +135,10 @@ body {
   font-family: "Helvetica";
   color: var(--main-light-color);
   margin: 2rem 0;
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-xxs);
+  }
 }
 
 /* .intro__container {

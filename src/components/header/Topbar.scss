@@ -13,6 +13,7 @@
 
   @include bp($bp-mobile) {
     padding: 2rem;
+    padding-bottom: 3rem;
   }
 
   &__nav {
