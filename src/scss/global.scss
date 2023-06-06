@@ -15,6 +15,12 @@ body {
   padding: 2rem 8rem;
   justify-content: space-between;
 
+  @include bp($bp-tablet) {
+    font-size: var(--font-xxs);
+    gap: 120px;
+    padding: 2rem 4rem;
+  }
+
   @include bp($bp-mobile) {
     gap: 50px;
     justify-content: space-between;
@@ -52,6 +58,11 @@ body {
 .landing {
   padding: 2rem 8rem 12rem 8rem;
 
+  @include bp($bp-tablet) {
+    width: 100%;
+    padding: 2rem 0 12rem 0;
+  }
+
   @include bp($bp-mobile) {
     width: 100%;
     padding: 2rem 0 12rem 0;
@@ -88,6 +99,11 @@ body {
   color: var(--main-medium-color);
   margin-bottom: 8rem;
   margin-top: 0;
+
+  @include bp($bp-tablet) {
+    font-size: var(--font-m);
+    padding: 0 4rem;
+  }
 
   @include bp($bp-mobile) {
     font-size: var(--font-s);

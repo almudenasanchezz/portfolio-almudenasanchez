@@ -13,8 +13,14 @@
   flex-direction: column;
   gap: 100px;
 
+  @include bp($bp-tablet) {
+    width: 100%;
+    padding: 0 4rem;
+  }
+
   @include bp($bp-mobile) {
     width: 100%;
+    padding: 0 2rem;
   }
 
   &__top {
@@ -50,9 +56,14 @@
     font-weight: var(--regular-font-weight);
     margin: 0;
 
+    @include bp($bp-tablet) {
+      font-size: var(--font-xxs);
+      line-height: 32px;
+    }
+
     @include bp($bp-mobile) {
       font-size: 16px;
-      padding: 0 2rem;
+      
       line-height: 24px;
     }
   }

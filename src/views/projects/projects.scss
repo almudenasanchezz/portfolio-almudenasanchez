@@ -6,6 +6,10 @@
   display: flex;
   flex-direction: column;
 
+  @include bp($bp-tablet) {
+    gap: 300px;
+  }
+
   @include bp($bp-mobile) {
     gap: 220px;
   }
