@@ -144,6 +144,11 @@
   display: flex;
   height: 600px;
   gap: 200px;
+
+  @include bp($bp-tablet) {
+    flex-direction: column;
+    height: fit-content;
+  }
 }
 
 .content__block {
@@ -151,6 +156,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @include bp($bp-tablet) {
+    width: fit-content;
+    height: 300px;
+    padding: 0 4rem;
+    padding-top: 4rem;
+  }
 
   &__introduction {
     display: flex;
@@ -166,12 +178,21 @@
 
   &__introduction h2 {
     margin: 0;
+
+    @include bp($bp-tablet) {
+      padding: 0;
+    }
   }
 }
 
 .image__block {
   width: 50%;
   height: 100%;
+
+  @include bp($bp-tablet) {
+    width: 100%;
+    height: 500px;
+  }
 }
 
 .small__description {

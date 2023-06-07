@@ -105,9 +105,22 @@
   width: calc(100% / 3);
   display: flex;
   flex-direction: column;
+
+  @include bp($bp-tablet) {
+    width: fit-content;
+    padding: 0 4rem;
+  }
 }
 
 .trio__block {
   display: flex;
   gap: 64px;
+
+  @include bp($bp-tablet) {
+    flex-direction: column;
+  }
+}
+
+.trio__block.landing {
+  padding-bottom: 4rem;
 }
