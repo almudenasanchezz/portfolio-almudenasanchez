@@ -5,6 +5,20 @@
   display: flex;
   gap: 64px;
   margin-bottom: 120px;
+
+  @include bp($bp-tablet) {
+    flex-wrap: wrap;
+    padding: 0 4rem;
+    justify-content: space-between;
+    gap: 44px;
+  }
+
+  @include bp($bp-mobile) {
+    padding: 0 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+  }
 }
 
 .block {
@@ -14,11 +28,31 @@
   flex-direction: column;
   height: 380px;
   width: -webkit-fill-available;
+
+  @include bp($bp-tablet) {
+    flex-basis: 45%;
+    height: 300px;
+  }
+
+  @include bp($bp-mobile) {
+    flex-basis: 45%;
+    height: 200px;
+  }
 }
 
 .info__block {
   padding: 24px;
   font-size: var(--font-xs);
+
+  @include bp($bp-tablet) {
+    font-size: var(--font-xxs);
+    padding: 16px;
+  }
+
+  @include bp($bp-mobile) {
+    padding: 12px;
+    font-size: 16px;
+  }
 
   &__text {
     margin: 0 0 16px 0;
