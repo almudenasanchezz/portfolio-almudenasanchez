@@ -161,7 +161,10 @@
     width: fit-content;
     height: 300px;
     padding: 0 4rem;
-    padding-top: 4rem;
+  }
+
+  @include bp($bp-mobile) {
+    padding: 0 2rem;
   }
 
   &__introduction {
@@ -173,6 +176,10 @@
       font-size: var(--font-xxs);
       color: var(--main-light-color);
       margin: 0;
+
+      @include bp($bp-mobile) {
+        font-size: 16px;
+      }
     }
   }
 
@@ -213,10 +220,18 @@
       color: var(--main-medium-color);
       margin: 0;
 
+      @include bp($bp-mobile) {
+        font-size: 14px;
+      }
+
       &__content {
         font-size: 20px;
         color: var(--main-light-color);
         margin: 0;
+
+        @include bp($bp-mobile) {
+          font-size: 14px;
+        }
       }
     }
   }

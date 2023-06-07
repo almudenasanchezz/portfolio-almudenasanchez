@@ -12,7 +12,7 @@ const TextBlock = (props) => {
           type={props.type}
           to={props.to}
           text="View project"
-          icon={<IconArrow sizeIcon={props.sizeIcon} />}
+          icon={<IconArrow/>}
         />
       </div>
     </div>

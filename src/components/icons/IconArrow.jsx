@@ -1,14 +1,11 @@
-import "./icon.scss";
-
 function IconArrow(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="2rem"
-      height="2rem"
+      width="1em"
+      height="1em"
       fill="none"
       viewBox="0 0 25 25"
-      className={props.sizeIcon}
     >
       <path
         fill="currentColor"

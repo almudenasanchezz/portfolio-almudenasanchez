@@ -98,7 +98,11 @@
   font-weight: var(--regular-font-weight);
   border-bottom: solid 1px var(--main-light-color);
   margin: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5em;
+
+  @include bp($bp-mobile) {
+    font-size: 16px;
+  }
 }
 
 .trio__single__block {
