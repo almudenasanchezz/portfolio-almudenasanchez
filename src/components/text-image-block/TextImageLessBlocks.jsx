@@ -20,15 +20,15 @@ const TextImageLessBlocks = () => {
         src={me}
         type="btn btn__tertiary"
         sizeIcon="small__icon"
-        to={`/calculator-project`}
+        to={`/calculator`}
       />
       <TextImageBlock
-        language="Figma"
-        title="3. Web redesign"
+        language="Figma | Wordpress"
+        title="3. Daikiri eCommerce"
         src={me}
         type="btn btn__tertiary"
         sizeIcon="small__icon"
-        to={`/another-project`}
+        to={`/daikiri-project`}
       />
     </div>
   );

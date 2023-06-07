@@ -6,9 +6,11 @@ import "../../scss/global.scss";
 const TextProjectBlock = (props) => {
   return (
     <div className="content__block">
-      <div className="project__title">
+      <div className="content__block__introduction">
         <h2 className="h2">{props.title}</h2>
-        <p className="description">{props.paragraph}</p>
+        <p className="content__block__introduction__paragraph">
+          {props.paragraph}
+        </p>
       </div>
       <div className="small__description">
         <div className="small__description__part">

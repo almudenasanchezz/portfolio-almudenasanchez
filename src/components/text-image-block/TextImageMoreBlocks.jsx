@@ -11,6 +11,7 @@ const TextImageMoreBlocks = () => {
         src={me}
         type="btn btn__tertiary"
         sizeIcon="small__icon"
+        to={`/to-do-project`}
       />
       <TextImageBlock
         imageToRight
@@ -19,13 +20,15 @@ const TextImageMoreBlocks = () => {
         src={me}
         type="btn btn__tertiary"
         sizeIcon="small__icon"
+        to={`/calculator`}
       />
       <TextImageBlock
-        language="Figma"
-        title="3. Web redesign"
+        language="Figma | Wordpress"
+        title="3. Daikiri eCommerce"
         src={me}
         type="btn btn__tertiary"
         sizeIcon="small__icon"
+        to={`/daikiri-project`}
       />
       <TextImageBlock
         imageToRight
