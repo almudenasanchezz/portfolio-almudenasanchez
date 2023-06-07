@@ -117,6 +117,10 @@
   flex-direction: column;
   width: 50%;
   gap: 4rem;
+
+  @include bp($bp-tablet) {
+    width: 100%;
+  }
 }
 
 .project__image__column {

@@ -6,16 +6,47 @@
   display: flex;
   padding-bottom: 200px;
   gap: 160px;
+
+  @include bp($bp-tablet) {
+    flex-direction: column;
+    padding: 0 4rem;
+  }
+
+  @include bp($bp-mobile) {
+    padding: 0 2rem;
+  }
 }
 
 .intro__about__left {
   width: 50%;
+
+  @include bp($bp-tablet) {
+    position: absolute;
+    width: 70%;
+    top: 600px;
+    left: 100px;
+  }
+
+  @include bp($bp-mobile) {
+    position: absolute;
+    width: 70%;
+    top: 700px;
+    left: 70px;
+  }
 
   &__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 60px;
+
+    @include bp($bp-tablet) {
+      gap: 30px;
+    }
+
+    @include bp($bp-mobile) {
+      gap: 15px;
+    }
   }
 }
 
@@ -37,7 +68,15 @@
   text-align: center;
   margin: auto;
   text-align: center;
-  max-width: 50%;
+  max-width: 70%;
+
+  @include bp($bp-tablet) {
+    font-size: var(--font-xxs);
+  }
+
+  @include bp($bp-mobile) {
+    font-size: 16px;
+  }
 }
 
 .first__word {
@@ -47,6 +86,14 @@
   font-family: var(--main-font);
   font-weight: var(--regular-font-weight);
   margin: 0;
+
+  @include bp($bp-tablet) {
+    font-size: var(--font-s);
+  }
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-xs);
+  }
 }
 
 .second__word {
@@ -58,6 +105,14 @@
   font-weight: var(--regular-font-weight);
   justify-content: flex-end;
   margin: 0;
+
+  @include bp($bp-tablet) {
+    font-size: var(--font-s);
+  }
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-xs);
+  }
 }
 
 .third__word {
@@ -69,6 +124,14 @@
   font-weight: var(--regular-font-weight);
   justify-content: center;
   margin: 0;
+
+  @include bp($bp-tablet) {
+    font-size: var(--font-m);
+  }
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-s);
+  }
 }
 
 .fourth__word {
@@ -78,4 +141,12 @@
   font-family: var(--main-font);
   font-weight: var(--regular-font-weight);
   margin: 0;
+
+  @include bp($bp-tablet) {
+    font-size: var(--font-s);
+  }
+
+  @include bp($bp-mobile) {
+    font-size: var(--font-xs);
+  }
 }

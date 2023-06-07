@@ -1,7 +1,6 @@
 @import "../../scss/global.scss";
 
 .accordion {
-
   @include bp($bp-tablet) {
     padding: 0 4rem;
   }
@@ -36,6 +35,14 @@
   font-weight: 400;
   font-family: "Helvetica";
   height: auto;
-  padding-bottom: 64px;
+  padding-bottom: 32px;
   max-height: 9999px;
+
+  @include bp($bp-tablet) {
+    font-size: var(--font-xxs);
+  }
+
+  @include bp($bp-mobile) {
+    font-size: 16px;
+  }
 }
