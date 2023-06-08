@@ -13,25 +13,28 @@ function Contact() {
       <div className="contact__buttons">
         <Button
           type="btn btn__primary"
-          to="/google.com"
+          to={`mailto:sanchezgallegoalmudena@gmail.com`}
           text="EMAIL ME"
           icon={<IconArrow />}
         />
         <Button
           type="btn btn__secondary"
-          to="/google.com"
+          to={`https://www.linkedin.com/in/almudena-sánchez-gallego-0a0bb9213/`}
+          newTab
           text="LINKEDIN"
           icon={<IconArrow />}
         />
         <Button
           type="btn btn__secondary"
-          to="/google.com"
+          to={`https://www.behance.net/almudenasanchez?isa0=1`}
+          newTab
           text="BEHANCE"
           icon={<IconArrow />}
         />
         <Button
           type="btn btn__secondary"
-          to="/google.com"
+          to={`https://github.com/almudenasanchezz`}
+          newTab
           text="GITHUB"
           icon={<IconArrow />}
         />
