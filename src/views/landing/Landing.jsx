@@ -11,7 +11,13 @@ function Landing() {
   return (
     <>
       <section className="landing">
-        <h1 className="h1">FRONTEND DEVELOPER</h1>
+        <h1 className="h1">
+          <div className="inner__headings">
+            <span>
+              FRONTEND DEVELOPER <br /> UX/UI <br /> DESIGNER
+            </span>
+          </div>
+        </h1>
         <div className="home__container">
           <div className="info">
             <p className="info-text">ALMUDENA SÁNCHEZ</p>

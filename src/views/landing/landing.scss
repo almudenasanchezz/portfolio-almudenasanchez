@@ -54,3 +54,46 @@
     font-size: var(--font-xxs);
   }
 }
+
+.inner__headings {
+  border: 0px solid #ddd;
+  height: 2.2em;
+  line-height: 1.2em;
+  overflow: hidden;
+}
+
+.inner__headings span {
+  position: relative;
+  animation: animation 8s ease infinite;
+}
+
+@keyframes animation {
+  0%,
+  100% {
+    top: 0;
+  }
+  20% {
+    top: 0;
+  }
+  25% {
+    top: 0;
+  }
+  45% {
+    top: 0;
+  }
+  50% {
+    top: -2.6em;
+  }
+
+  70% {
+    top: -2.6em;
+  }
+
+  75% {
+    top: -2.6em;
+  }
+
+  95% {
+    top: -2.6em;
+  }
+}
