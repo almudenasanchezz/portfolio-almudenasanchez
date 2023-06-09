@@ -61,6 +61,10 @@
     color: var(--main-light-color);
     font-weight: var(--regular-font-weight);
     margin: 0;
+
+    @include bp($bp-mobile) {
+      font-size: 16px;
+    }
   }
 
   &__exercise {
@@ -69,6 +73,16 @@
     font-weight: var(--regular-font-weight);
     margin: 0;
     padding-bottom: 40px;
+
+    @include bp($bp-tablet) {
+      font-size: var(--font-xs);
+      padding-bottom: 20px;
+    }
+
+    @include bp($bp-mobile) {
+      font-size: var(--font-xxs);
+      padding-bottom: 10px;
+    }
   }
 }
 
