@@ -4,7 +4,7 @@ import Button from "../../components/buttons/Button";
 import IconArrow from "../../components/icons/IconArrow";
 import TextImageLessBlocks from "../../components/text-image-block/TextImageLessBlocks";
 import TextImageAboutBlock from "../../components/text-image-block/TextImageAboutBlock";
-import me from "../../images/me.jpg";
+import me from "../../images/me-homepage-2.jpg";
 import Space4TextBlock from "../../components/space-text-block/Space4TextBlock";
 
 function Landing() {

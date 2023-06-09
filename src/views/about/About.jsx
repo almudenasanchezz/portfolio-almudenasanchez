@@ -2,7 +2,7 @@ import "./about.scss";
 import Button from "../../components/buttons/Button";
 import IconArrow from "../../components/icons/IconArrow";
 import TextImageAboutBlock from "../../components/text-image-block/TextImageAboutBlock";
-import me from "../../images/me.jpg";
+import me from "../../images/me-about-2.jpg";
 import ColorTextBlocks from "../../components/color-text-block/ColorTextBlocks";
 import AccordionAbout from "../../components/accordion/AccordionAbout";
 
