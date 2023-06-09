@@ -10,7 +10,7 @@ const TextImageLessBlocks = () => {
         language="React | Javascript"
         title="1. To do list"
         src={me}
-        type="btn btn__tertiary"
+        type="btn btn__tertiary btn__green"
         to={`/to-do-project`}
       />
       <TextImageBlock
@@ -18,7 +18,7 @@ const TextImageLessBlocks = () => {
         language="React"
         title="2. Calculator"
         src={me}
-        type="btn btn__tertiary"
+        type="btn btn__tertiary btn__pink"
         to={`/calculator`}
       />
       <TextImageBlock
@@ -26,7 +26,7 @@ const TextImageLessBlocks = () => {
         language="Figma | Wordpress"
         title="3. Daikiri eCommerce"
         src={me}
-        type="btn btn__tertiary"
+        type="btn btn__tertiary btn__red"
         to={`/daikiri-project`}
       />
     </div>

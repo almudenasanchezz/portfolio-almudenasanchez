@@ -12,7 +12,7 @@ function Contact() {
       </div>
       <div className="contact__buttons">
         <Button
-          type="btn btn__primary"
+          type="btn btn__primary btn__pink"
           to={`mailto:sanchezgallegoalmudena@gmail.com`}
           text="EMAIL ME"
           icon={<IconArrow />}

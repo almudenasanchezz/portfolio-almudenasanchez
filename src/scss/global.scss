@@ -202,6 +202,22 @@ body {
   align-items: center;
 }
 
+.font__green {
+  color: var(--green);
+}
+
+.font__pink {
+  color: var(--pink);
+}
+
+.font__red {
+  color: var(--red);
+}
+
+.font__blue {
+  color: var(--blue);
+}
+
 //declaracion de variables, unidades de padding y tamaños de fuentes
 
 //si algo de css tiene algo que ver con un componente no tiene que ir en la carpeta de global sino donde el componente

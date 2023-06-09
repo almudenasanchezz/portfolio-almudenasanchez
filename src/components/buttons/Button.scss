@@ -50,9 +50,40 @@
       font-size: 16px;
       padding: 0.5rem 1rem;
     }
+  }
+
+  &__green {
+    background-color: var(--green);
 
     &:hover {
       background-color: hsl(149, 37%, 43%);
+      color: var(--main-dark-color);
+    }
+  }
+
+  &__pink {
+    background-color: var(--pink);
+
+    &:hover {
+      background-color: hsl(318, 60%, 65%);
+      color: var(--main-dark-color);
+    }
+  }
+
+  &__red {
+    background-color: var(--red);
+
+    &:hover {
+      background-color: hsl(6, 64%, 48%);
+      color: var(--main-dark-color);
+    }
+  }
+
+  &__blue {
+    background-color: var(--blue);
+
+    &:hover {
+      background-color: hsl(218, 59%, 43%);
       color: var(--main-dark-color);
     }
   }

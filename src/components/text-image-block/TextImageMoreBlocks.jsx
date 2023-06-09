@@ -10,7 +10,7 @@ const TextImageMoreBlocks = () => {
         language="React | Javascript"
         title="1. To do list"
         src={me}
-        type="btn btn__tertiary"
+        type="btn btn__tertiary btn__green"
         to={`/to-do-project`}
       />
       <TextImageBlock
@@ -18,7 +18,7 @@ const TextImageMoreBlocks = () => {
         language="React"
         title="2. Calculator"
         src={me}
-        type="btn btn__tertiary"
+        type="btn btn__tertiary btn__pink"
         to={`/calculator`}
       />
       <TextImageBlock
@@ -26,7 +26,7 @@ const TextImageMoreBlocks = () => {
         language="Figma | Wordpress"
         title="3. Daikiri eCommerce"
         src={me}
-        type="btn btn__tertiary"
+        type="btn btn__tertiary btn__red"
         to={`/daikiri-project`}
       />
       <TextImageBlock
@@ -34,14 +34,14 @@ const TextImageMoreBlocks = () => {
         language="React | Javascript"
         title="4. To do list"
         src={me}
-        type="btn btn__tertiary"
+        type="btn btn__tertiary btn__blue"
       />
       <TextImageBlock
         className="img__to__left"
         language="React | Javascript"
         title="5. To do list"
         src={me}
-        type="btn btn__tertiary"
+        type="btn btn__tertiary btn__green"
       />
     </div>
   );

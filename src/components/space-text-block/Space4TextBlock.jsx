@@ -9,7 +9,7 @@ const Space4TextBlock = () => {
           <ProcessPart
             showCategory="dont__show"
             textBlock="text__block__top__left"
-            title="h3"
+            title="h3 font__green"
             titleText="Briefing"
             description="text__block__text"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -18,7 +18,7 @@ const Space4TextBlock = () => {
           <ProcessPart
             showCategory="dont__show"
             textBlock="text__block__top__left"
-            title="h3"
+            title="h3 font__pink"
             titleText="Analysis"
             description="text__block__text"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -29,7 +29,7 @@ const Space4TextBlock = () => {
           <ProcessPart
             showCategory="dont__show"
             textBlock="text__block__top__left"
-            title="h3"
+            title="h3 font__red"
             titleText="Prototyping"
             description="text__block__text"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -38,7 +38,7 @@ const Space4TextBlock = () => {
           <ProcessPart
             showCategory="dont__show"
             textBlock="text__block__top__left"
-            title="h3"
+            title="h3 font__blue"
             titleText="Final Part"
             description="text__block__text"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
