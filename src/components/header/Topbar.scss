@@ -22,6 +22,7 @@
 
     @include bp($bp-mobile) {
       gap: 20px;
+      z-index: 9;
     }
 
     &__close {
