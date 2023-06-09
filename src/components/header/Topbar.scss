@@ -20,7 +20,7 @@
     display: flex;
     gap: 48px;
 
-    @media (max-width: 600px) {
+    @include bp($bp-mobile) {
       gap: 20px;
     }
 
@@ -30,9 +30,15 @@
       font-size: var(--font-xxs);
       background: none;
       padding: 2rem;
+      border: none;
+      cursor: pointer;
+
+      @include bp($bp-mobile) {
+        margin-bottom: 100%;
+      }
     }
 
-    @media (max-width: 600px) {
+    @include bp($bp-mobile) {
       position: fixed;
       flex-direction: column;
       background: var(--main-dark-color);
@@ -41,7 +47,6 @@
       left: 0;
       right: 0;
       transform: translateX(100%);
-      padding-left: 40px;
 
       &__show {
         transform: translateX(0);
@@ -58,9 +63,10 @@
     color: var(--main-light-color);
     font-size: var(--font-xxs);
 
-    @media (max-width: 600px) {
+    @include bp($bp-mobile) {
       font-size: var(--font-s);
       text-transform: uppercase;
+      padding-left: 2rem;
     }
   }
 
@@ -75,8 +81,10 @@
   color: var(--main-light-color);
   font-size: var(--font-xxs);
   background: none;
+  border: none;
+  cursor: pointer;
 
-  @media (max-width: 600px) {
+  @include bp($bp-mobile) {
     display: inline-block;
   }
 
