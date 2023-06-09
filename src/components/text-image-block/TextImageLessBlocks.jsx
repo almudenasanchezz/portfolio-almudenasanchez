@@ -6,6 +6,7 @@ const TextImageLessBlocks = () => {
   return (
     <div className="projects__container">
       <TextImageBlock
+        className="img__to__left"
         language="React | Javascript"
         title="1. To do list"
         src={me}
@@ -13,7 +14,7 @@ const TextImageLessBlocks = () => {
         to={`/to-do-project`}
       />
       <TextImageBlock
-        imageToRight
+        className="img__to__right"
         language="React"
         title="2. Calculator"
         src={me}
@@ -21,6 +22,7 @@ const TextImageLessBlocks = () => {
         to={`/calculator`}
       />
       <TextImageBlock
+        className="img__to__left"
         language="Figma | Wordpress"
         title="3. Daikiri eCommerce"
         src={me}

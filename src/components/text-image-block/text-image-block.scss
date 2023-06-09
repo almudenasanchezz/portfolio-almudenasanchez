@@ -5,9 +5,13 @@
   display: flex;
   flex-direction: column;
   gap: 0;
+
+  @include bp($bp-mobile) {
+    gap: 6rem;
+  }
 }
 
-.project {
+.img__to__left {
   display: flex;
   width: 100%;
   height: 732px;
@@ -21,22 +25,39 @@
     width: 100%;
     height: fit-content;
   }
+}
 
-  &__image {
-    width: 50%;
-    height: 100%;
+.img__to__right {
+  display: flex;
+  width: 100%;
+  height: 732px;
+  flex-direction: row-reverse;
 
-    @include bp($bp-mobile) {
-      width: 100%;
-    }
+  @include bp($bp-tablet) {
+    height: 432px;
   }
 
-  &__content {
-    width: 50%;
+  @include bp($bp-mobile) {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+}
 
-    @include bp($bp-mobile) {
-      width: 100%;
-    }
+.project__image {
+  width: 50%;
+  height: 100%;
+
+  @include bp($bp-mobile) {
+    width: 100%;
+  }
+}
+
+.project__content {
+  width: 50%;
+
+  @include bp($bp-mobile) {
+    width: 100%;
   }
 }
 
@@ -44,6 +65,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.img__to__left {
+}
+
+.img__to__right {
+  display: flex;
 }
 
 .project__title {

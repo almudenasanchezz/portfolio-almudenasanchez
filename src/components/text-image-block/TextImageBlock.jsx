@@ -4,27 +4,18 @@ import TextBlock from "./TextBlock";
 
 const TextImageBlock = (props) => {
   return (
-    <div className="project">
-      {!props.imageToRight && (
-        <ImageBlock
-          columnImage="project__image"
-          src={props.src}
-          alt={props.alt}
-        />
-      )}
+    <div className={props.className}>
+      <ImageBlock
+        columnImage="project__image"
+        src={props.src}
+        alt={props.alt}
+      />
       <TextBlock
         language={props.language}
         title={props.title}
         to={props.to}
         type={props.type}
       />
-      {props.imageToRight && (
-        <ImageBlock
-          columnImage="project__image"
-          src={props.src}
-          alt={props.alt}
-        />
-      )}
     </div>
   );
 };

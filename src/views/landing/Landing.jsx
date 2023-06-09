@@ -48,7 +48,7 @@ function Landing() {
       <section className="landing">
         <h2 className="h2">ABOUT ME</h2>
         <TextImageAboutBlock
-          column="project"
+          column="img__to__left"
           columnImage="project__image"
           textColumn="about__content"
           text="about__content__text"
