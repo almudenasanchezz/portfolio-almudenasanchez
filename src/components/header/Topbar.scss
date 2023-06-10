@@ -5,7 +5,8 @@
   padding: 8rem;
   padding-top: 4rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
 
   @include bp($bp-tablet) {
     padding: 4rem;

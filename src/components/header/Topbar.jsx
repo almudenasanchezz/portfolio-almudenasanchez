@@ -1,6 +1,7 @@
 import "./Topbar.scss";
 import TopbarLink from "./TopbarLink";
 import { useState } from "react";
+import ThemeButton from "../theme-button/ThemeButton";
 
 const Topbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -11,6 +12,7 @@ const Topbar = () => {
 
   return (
     <>
+      <ThemeButton />
       <nav
         className={`topbar__nav ${showMobileMenu ? "topbar__nav__show" : ""}`}
       >

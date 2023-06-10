@@ -11,9 +11,9 @@
 }
 
 .item {
-  color: white;
-  border-top: solid 1px white;
-  border-bottom: solid 1px white;
+  color: var(--main-light-color);
+  border-top: solid 1px var(--main-light-color);
+  border-bottom: solid 1px var(--main-light-color);
 }
 
 .title {

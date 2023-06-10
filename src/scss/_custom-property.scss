@@ -27,5 +27,19 @@
   --main-dark-color: var(--black);
   --main-light-color: var(--white);
   --main-medium-color: var(--grey);
-  /* falta darle una funcionalidad a los colores secundarios */
+  --bg-color: var(--main-dark-color);
+}
+
+.dark-mode {
+  --main-medium-color: var(--grey);
+  --bg-color: var(--main-dark-color);
+  --main-light-color: var(--white);
+  --main-dark-color: var(--black);
+}
+
+.light-mode {
+  --main-medium-color: var(--black);
+  --bg-color: var(--white);
+  --main-light-color: var(--black);
+  --main-dark-color: var(--white);
 }
