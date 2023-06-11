@@ -1,7 +1,9 @@
 import "../../project/project.scss";
 import "../../../components/text-image-block/text-image-block.scss";
 import TextImageProjectBlock from "../../../components/text-image-block/TextImageProjectBlock";
-import me from "../../../images/me.jpg";
+import daikiri from "../../../images/daikiri-color.jpg";
+import daikiri2 from "../../../images/daikiri-2.png";
+import daikiriProducts from "../../../images/daikiri-products.jpg";
 import ProcessPart from "../../../components/space-text-block/ProcessPart";
 
 function DaikiriProject(props) {
@@ -17,7 +19,7 @@ function DaikiriProject(props) {
           categoryContent2="2023"
           to={props.to}
           text="Github"
-          src={me}
+          src={daikiri}
           alt="A photo of me"
         />
       </section>
@@ -51,13 +53,10 @@ function DaikiriProject(props) {
         <p className="h1">GALLERY</p>
         <div className="full__page__container">
           <div className="full__page__img">
-            <img src="" alt="" />
+            <img className="img" src={daikiri2} alt="" />
           </div>
           <div className="full__page__img">
-            <img src="" alt="" />
-          </div>
-          <div className="full__page__img">
-            <img src="" alt="" />
+            <img className="img" src={daikiriProducts} alt="" />
           </div>
         </div>
       </section>

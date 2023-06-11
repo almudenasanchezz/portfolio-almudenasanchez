@@ -51,13 +51,10 @@ function Calculator(props) {
         <p className="h1">GALLERY</p>
         <div className="full__page__container">
           <div className="full__page__img">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
           </div>
           <div className="full__page__img">
-            <img src="" alt="" />
-          </div>
-          <div className="full__page__img">
-            <img src="" alt="" />
+            <img className="img" src="" alt="" />
           </div>
         </div>
       </section>

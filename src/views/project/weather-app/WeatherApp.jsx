@@ -1,26 +1,26 @@
 import "../../project/project.scss";
 import "../../../components/text-image-block/text-image-block.scss";
 import TextImageProjectBlock from "../../../components/text-image-block/TextImageProjectBlock";
-import toDo from "../../../images/todo-color.jpg";
-import toDo2 from "../../../images/todo-imac.jpg";
-import toDo3 from "../../../images/todo-active.jpg";
-import toDo4 from "../../../images/todo-completed.jpg";
+import weather from "../../../images/weather-color.jpg";
+import weather2 from "../../../images/weather-mobile.png";
+import weather3 from "../../../images/weather-mac-mobile.png";
+import weather4 from "../../../images/weather-writing.png";
 import ProcessPart from "../../../components/space-text-block/ProcessPart";
 
-function ToDoProject(props) {
+function WeatherApp(props) {
   return (
     <>
       <section className="image__content__block landing">
         <TextImageProjectBlock
-          title="TO DO LIST"
+          title="WEATHER APP"
           paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. "
           category1="Languages"
-          categoryContent1="React | Javascript"
+          categoryContent1="React"
           category2="Year"
           categoryContent2="2023"
           to={props.to}
           text="Github"
-          src={toDo}
+          src={weather}
           alt="A photo of me"
         />
       </section>
@@ -54,13 +54,13 @@ function ToDoProject(props) {
         <p className="h1">GALLERY</p>
         <div className="full__page__container">
           <div className="full__page__img">
-            <img className="img" src={toDo2} alt="" />
+            <img className="img" src={weather2} alt="" />
           </div>
           <div className="full__page__img">
-            <img className="img" src={toDo3} alt="" />
+            <img className="img" src={weather3} alt="" />
           </div>
           <div className="full__page__img">
-            <img className="img" src={toDo4} alt="" />
+            <img className="img" src={weather4} alt="" />
           </div>
         </div>
       </section>
@@ -68,4 +68,4 @@ function ToDoProject(props) {
   );
 }
 
-export default ToDoProject;
+export default WeatherApp;
