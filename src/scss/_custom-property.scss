@@ -28,6 +28,9 @@
   --main-light-color: var(--white);
   --main-medium-color: var(--grey);
   --bg-color: var(--main-dark-color);
+  --block-bg: var(--white);
+  --block-border: none;
+  --block-color: var(--main-dark-color);
 }
 
 .dark-mode {
@@ -35,6 +38,9 @@
   --bg-color: var(--main-dark-color);
   --main-light-color: var(--white);
   --main-dark-color: var(--black);
+  --block-bg: var(--white);
+  --block-border: none;
+  --block-color: var(--black);
 }
 
 .light-mode {
@@ -42,4 +48,7 @@
   --bg-color: var(--white);
   --main-light-color: var(--black);
   --main-dark-color: var(--white);
+  --block-bg: none;
+  --block-border: solid 1px var(--black);
+  --block-color: var(--black);
 }

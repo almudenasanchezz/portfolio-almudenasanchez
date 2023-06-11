@@ -23,11 +23,12 @@
 
 .block {
   display: flex;
-  background-color: var(--main-light-color);
+  background-color: var(--block-bg);
   border-radius: 20px;
   flex-direction: column;
   height: 380px;
   width: -webkit-fill-available;
+  border: var(--block-border);
 
   @include bp($bp-tablet) {
     flex-basis: 45%;
@@ -56,7 +57,7 @@
 
   &__text {
     margin: 0 0 16px 0;
-    color: var(--main-dark-color);
+    color: var(--block-color);
   }
 }
 
