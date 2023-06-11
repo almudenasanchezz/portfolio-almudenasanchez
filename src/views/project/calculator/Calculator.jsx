@@ -15,7 +15,7 @@ function Calculator(props) {
           categoryContent1="React"
           category2="Year"
           categoryContent2="2023"
-          to={props.to}
+          to={`https://github.com/almudenasanchezz/calculator-almudena.git`}
           text="Github"
           src={me}
           alt="A photo of me"

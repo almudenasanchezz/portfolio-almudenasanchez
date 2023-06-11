@@ -18,7 +18,7 @@ function WeatherApp(props) {
           categoryContent1="React"
           category2="Year"
           categoryContent2="2023"
-          to={props.to}
+          to={`https://github.com/almudenasanchezz/weather-app-react.git`}
           text="Github"
           src={weather}
           alt="A photo of me"

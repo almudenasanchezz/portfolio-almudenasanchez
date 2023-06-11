@@ -18,7 +18,7 @@ function ToDoProject(props) {
           categoryContent1="React | Javascript"
           category2="Year"
           categoryContent2="2023"
-          to={props.to}
+          to={`https://github.com/almudenasanchezz/todo-list-almudena.git`}
           text="Github"
           src={toDo}
           alt="A photo of me"

@@ -17,8 +17,8 @@ function DaikiriProject(props) {
           categoryContent1="Figma | Wordpress"
           category2="Year"
           categoryContent2="2023"
-          to={props.to}
-          text="Github"
+          to={`https://esatdev.com/2022/almudena/daikiri-fse/`}
+          text="View project"
           src={daikiri}
           alt="A photo of me"
         />

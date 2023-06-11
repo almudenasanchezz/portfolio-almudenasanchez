@@ -46,6 +46,11 @@
     font-size: var(--font-xxs);
     padding: 1rem 2rem 1rem 2rem;
 
+    &:hover {
+      background-color: hsl(149, 37%, 43%);
+      color: var(--main-dark-color);
+    }
+
     @include bp($bp-mobile) {
       font-size: 16px;
       padding: 0.5rem 1rem;
