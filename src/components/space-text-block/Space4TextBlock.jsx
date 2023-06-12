@@ -12,8 +12,7 @@ const Space4TextBlock = () => {
             title="h3 font__green"
             titleText="Briefing"
             description="text__block__text"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Quisque ac malesuada dolor, quis laoreet purus."
+            text="Understand your objectives, needs and vision of the project. I collect key information about your target audience and your specific requirements."
           />
           <ProcessPart
             showCategory="dont__show"
@@ -21,8 +20,7 @@ const Space4TextBlock = () => {
             title="h3 font__pink"
             titleText="Analysis"
             description="text__block__text"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Quisque ac malesuada dolor, quis laoreet purus."
+            text="Analysis of the competition, market trends and best design practices. I also conduct user research to understand their behaviors, needs and desires."
           />
         </div>
         <div className="text__block__bottom">
@@ -32,8 +30,7 @@ const Space4TextBlock = () => {
             title="h3 font__red"
             titleText="Prototyping"
             description="text__block__text"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Quisque ac malesuada dolor, quis laoreet purus."
+            text="I use tools like wireframes and mockups to create an interactive visual representation of the proposed solution."
           />
           <ProcessPart
             showCategory="dont__show"
@@ -41,8 +38,7 @@ const Space4TextBlock = () => {
             title="h3 font__blue"
             titleText="Final Part"
             description="text__block__text"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Quisque ac malesuada dolor, quis laoreet purus."
+            text="I make sure that the design adapts smoothly to different devices and platforms, and that accessibility and performance standards are met"
           />
         </div>
       </article>

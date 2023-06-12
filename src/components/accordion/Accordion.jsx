@@ -33,12 +33,12 @@ const data = [
   {
     title: "UX/UI DESIGN",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis eros in metus sagittis consectetur. Curabitur lorem dolor, placerat nec tempus et, pellentesque et arcu. Praesent at maximus diam. Integer tempor pellentesque magna, vitae interdum urna semper eget. Sed arcu mauris, laoreet sed efficitur quis, luctus a felis.",
+      "I offer high-quality UX/UI design services to create impactful digital experiences. My approach is focused on understanding the needs of users and designing intuitive and attractive interfaces. From research and wireframing to visual design and implementation.",
   },
   {
     title: "WEB DEVELOPMENT",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis eros in metus sagittis consectetur. Curabitur lorem dolor, placerat nec tempus et, pellentesque et arcu. Praesent at maximus diam. Integer tempor pellentesque magna, vitae interdum urna semper eget. Sed arcu mauris, laoreet sed efficitur quis, luctus a felis.",
+      "As a frontend developer, I offer modern and responsive website and application creation services. Using technologies like HTML, CSS and JavaScript, I make sure that your project has an attractive design and impeccable functionality. From layout to performance optimization.",
   },
 ];
 
