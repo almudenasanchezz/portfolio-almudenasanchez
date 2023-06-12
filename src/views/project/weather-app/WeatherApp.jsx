@@ -13,7 +13,7 @@ function WeatherApp(props) {
       <section className="image__content__block landing">
         <TextImageProjectBlock
           title="WEATHER APP"
-          paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. "
+          paragraph="The weather app I developed is a user-friendly web application that provides weather information for any location around the world. It allows users to quickly access weather data, including temperature, humidity, real feel... The app's intuitive design and seamless user experience make it a valuable tool for anyone who wants to stay informed about the weather conditions. "
           category1="Languages"
           categoryContent1="React"
           category2="Year"
@@ -21,7 +21,7 @@ function WeatherApp(props) {
           to={`https://github.com/almudenasanchezz/weather-app-react.git`}
           text="Github"
           src={weather}
-          alt="A photo of me"
+          alt="A photo of weather app"
         />
       </section>
       <section className="trio__block landing">
@@ -30,15 +30,15 @@ function WeatherApp(props) {
           category="CHALLENGE"
           textBlock="trio__single__block"
           title="h3"
-          titleText="LOREM IPSUM DOLOR SIT AMET"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. Duis imperdiet sed odio a semper. In hac habitasse platea dictumst. Sed pellentesque accumsan tortor a pretium. Mauris lobortis enim eu ipsum mollis dictum. Nulla varius nisl erat, eget pharetra risus viverra sit. "
+          titleText="API INTEGRATION & RETRIEVAL"
+          text="I had to research and select a weather API that provided the information I needed. Additionally, parsing and displaying the retrieved data in a visually appealing and easily understandable format. "
         />
         <ProcessPart
           showCategory="show__category"
           category="GOAL"
           textBlock="trio__single__block"
           title="h3"
-          titleText="LOREM IPSUM DOLOR SIT AMET"
+          titleText="WEATHER APP DEVELOPMENT"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. Duis imperdiet sed odio a semper. In hac habitasse platea dictumst. Sed pellentesque accumsan tortor a pretium. Mauris lobortis enim eu ipsum mollis dictum. Nulla varius nisl erat, eget pharetra risus viverra sit. "
         />
         <ProcessPart
@@ -46,8 +46,8 @@ function WeatherApp(props) {
           category="RESULT"
           textBlock="trio__single__block"
           title="h3"
-          titleText="LOREM IPSUM DOLOR SIT AMET"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. Duis imperdiet sed odio a semper. In hac habitasse platea dictumst. Sed pellentesque accumsan tortor a pretium. Mauris lobortis enim eu ipsum mollis dictum. Nulla varius nisl erat, eget pharetra risus viverra sit. "
+          titleText="TOTALLY USEFUL APP"
+          text="The weather app I developed using React and JavaScript provides users with weather data for any location. "
         />
       </section>
       <section className="center__section landing">
