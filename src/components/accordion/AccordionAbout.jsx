@@ -31,29 +31,29 @@ function AccordionAbout() {
 
 const data = [
   {
-    title: "LOREM IPSUM",
+    title: "ABILITY TO WORK IN A TEAM",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis eros in metus sagittis consectetur. Curabitur lorem dolor, placerat nec tempus et, pellentesque et arcu. Praesent at maximus diam. Integer tempor pellentesque magna, vitae interdum urna semper eget. Sed arcu mauris, laoreet sed efficitur quis, luctus a felis.",
+      "In most of the projects that I have participated in, they have been in teams. I believe that this practice is enriching for all those who participate in it, since ideas are shared and knowledge is acquired in a much more efficient way.",
   },
   {
-    title: "LOREM IPSUM",
+    title: "EMPATHY",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis eros in metus sagittis consectetur. Curabitur lorem dolor, placerat nec tempus et, pellentesque et arcu. Praesent at maximus diam. Integer tempor pellentesque magna, vitae interdum urna semper eget. Sed arcu mauris, laoreet sed efficitur quis, luctus a felis.",
+      "Empathy is one of the values ​​that has always been present in me since I was very little. I have always understood and shared the emotions of others, showing concern for their well-being.",
   },
   {
-    title: "LOREM IPSUM",
+    title: "ABILITY TO WORK UNDER PRESSURE",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis eros in metus sagittis consectetur. Curabitur lorem dolor, placerat nec tempus et, pellentesque et arcu. Praesent at maximus diam. Integer tempor pellentesque magna, vitae interdum urna semper eget. Sed arcu mauris, laoreet sed efficitur quis, luctus a felis.",
+      "I consider myself a person capable of working under pressure due to my ability to remain calm, make quick and efficient decisions, and maintain a productive approach even in difficult situations.",
   },
   {
-    title: "LOREM IPSUM",
+    title: "GOOD TIME MANAGEMENT AND ORGANIZATION",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis eros in metus sagittis consectetur. Curabitur lorem dolor, placerat nec tempus et, pellentesque et arcu. Praesent at maximus diam. Integer tempor pellentesque magna, vitae interdum urna semper eget. Sed arcu mauris, laoreet sed efficitur quis, luctus a felis.",
+      "One of my priorities before starting a project is to plan the entire process, establishing priorities according to the time available. I always try to meet deadlines consistently, showing commitment and giving my all to each task.",
   },
   {
-    title: "LOREM IPSUM",
+    title: "PROBLEM RESOLUTION",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis eros in metus sagittis consectetur. Curabitur lorem dolor, placerat nec tempus et, pellentesque et arcu. Praesent at maximus diam. Integer tempor pellentesque magna, vitae interdum urna semper eget. Sed arcu mauris, laoreet sed efficitur quis, luctus a felis.",
+      "Every time a problem arises, I put into practice my ability to analyze and address it, seeking practical solutions with initiative.",
   },
 ];
 

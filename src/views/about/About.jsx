@@ -45,13 +45,12 @@ function About() {
       </section>
       <section className="landing">
         <p className="description__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In laoreet
-          nisi erat, ac mollis elit ullamcorper nec. Nullam quis ex elit.
-          Praesent in turpis sollicitudin, rutrum dolor a, rutrum ex. Morbi
-          iaculis ultricies orci. Quisque ac elit nec sem vestibulum tristique
-          quis a erat. Donec sapien nisi, lacinia quis lectus ac, sodales
-          euismod arcu. Donec porta finibus est, eget consectetur dolor
-          consectetur vel. Integer sed convallis neque.
+          Thanks for visiting my portfolio! <br /> <br />
+          I am a passionate designer and web developer ready to take your
+          projects to the next level. I turn ideas into captivating and
+          functional digital experiences. I am excited to learn about your
+          challenges and work together to achieve impressive results. 
+          Let's talk and bring your digital visions to life!
         </p>
       </section>
       <section className="centered__text">
