@@ -2,7 +2,7 @@ import "./about.scss";
 import Button from "../../components/buttons/Button";
 import IconArrow from "../../components/icons/IconArrow";
 import TextImageAboutBlock from "../../components/text-image-block/TextImageAboutBlock";
-import me from "../../images/me-about-2.jpg";
+import me from "../../images/me-about-3.jpg";
 import ColorTextBlocks from "../../components/color-text-block/ColorTextBlocks";
 import AccordionAbout from "../../components/accordion/AccordionAbout";
 
@@ -45,12 +45,12 @@ function About() {
       </section>
       <section className="landing">
         <p className="description__text">
-          Thanks for visiting my portfolio! <br /> <br />
-          I am a passionate designer and web developer ready to take your
-          projects to the next level. I turn ideas into captivating and
-          functional digital experiences. I am excited to learn about your
-          challenges and work together to achieve impressive results. 
-          Let's talk and bring your digital visions to life!
+          Thanks for visiting my portfolio! <br /> <br />I am a passionate
+          designer and web developer ready to take your projects to the next
+          level. I turn ideas into captivating and functional digital
+          experiences. I am excited to learn about your challenges and work
+          together to achieve impressive results. Let's talk and bring your
+          digital visions to life!
         </p>
       </section>
       <section className="centered__text">

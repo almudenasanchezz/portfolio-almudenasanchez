@@ -29,7 +29,11 @@ function Landing() {
               text="Contact now"
               to={`/contact`}
             />
-            <Button type="btn btn__secondary" text="Download CV" />
+            <Button
+              type="btn btn__secondary"
+              text="Download CV"
+              to={`https://drive.google.com/file/d/1cdFM6OsD810WM9JSQY31lMDcUmUqxhA9/view?usp=sharing`}
+            />
           </div>
         </div>
       </section>

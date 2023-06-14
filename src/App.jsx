@@ -19,7 +19,7 @@ function App() {
       <Outlet />
       <footer className="footer">
         <div className="footer__content">
-          <div className="logo">MI LOGO</div>
+          <div className="logo">ALMUDENA <br /> SÁNCHEZ</div>
           <nav className="footer__nav">
             <Link
               className="footer__link"

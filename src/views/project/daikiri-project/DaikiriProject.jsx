@@ -29,8 +29,8 @@ function DaikiriProject(props) {
           category="CHALLENGE"
           textBlock="trio__single__block"
           title="h3"
-          titleText="ATRACTIVE AND EASY TO USE WEB"
-          text="The challenge is to design an attractive and easy-to-use platform that effectively showcases the uniqueness and beauty of handmade jewelry, while also providing a seamless and secure shopping experience for customers."
+          titleText="ATRACTIVE WEB"
+          text="The challenge is to design an attractive and easy-to-use platform that effectively showcases the uniqueness and beauty of handmade jewelry."
         />
         <ProcessPart
           showCategory="show__category"
