@@ -13,9 +13,9 @@ function ToDoProject(props) {
       <section className="image__content__block landing">
         <TextImageProjectBlock
           title="TO DO LIST"
-          paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. "
+          paragraph="This application consists of generating a list of tasks managed by the user. It includes features like adding tasks, viewing active and completed tasks, and removing tasks from the list. "
           category1="Languages"
-          categoryContent1="React | Javascript"
+          categoryContent1="Javascript"
           category2="Year"
           categoryContent2="2023"
           to={`https://github.com/almudenasanchezz/todo-list-almudena.git`}
@@ -30,24 +30,24 @@ function ToDoProject(props) {
           category="CHALLENGE"
           textBlock="trio__single__block"
           title="h3"
-          titleText="LOREM IPSUM DOLOR SIT AMET"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. Duis imperdiet sed odio a semper. In hac habitasse platea dictumst. Sed pellentesque accumsan tortor a pretium. Mauris lobortis enim eu ipsum mollis dictum. Nulla varius nisl erat, eget pharetra risus viverra sit. "
+          titleText="IMPLEMENT FUNCIONALITY"
+          text="The challenge is to implement the functionality to add tasks, mark tasks complete, and remove tasks from the list, all using JavaScript and HTML and CSS for the layout and presentation of the list."
         />
         <ProcessPart
           showCategory="show__category"
           category="GOAL"
           textBlock="trio__single__block"
           title="h3"
-          titleText="LOREM IPSUM DOLOR SIT AMET"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. Duis imperdiet sed odio a semper. In hac habitasse platea dictumst. Sed pellentesque accumsan tortor a pretium. Mauris lobortis enim eu ipsum mollis dictum. Nulla varius nisl erat, eget pharetra risus viverra sit. "
+          titleText="FUNCTIONAL AND PRACTICAL TOOL"
+          text="The objective is to allow the user to create, organize and manage their tasks effectively, improving their productivity and helping them to stay organized."
         />
         <ProcessPart
           showCategory="show__category"
           category="RESULT"
           textBlock="trio__single__block"
           title="h3"
-          titleText="LOREM IPSUM DOLOR SIT AMET"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. Duis imperdiet sed odio a semper. In hac habitasse platea dictumst. Sed pellentesque accumsan tortor a pretium. Mauris lobortis enim eu ipsum mollis dictum. Nulla varius nisl erat, eget pharetra risus viverra sit. "
+          titleText="INTERACTIVE APPLICATION"
+          text="An interactive and easy to use application that helps the user to stay organized and manage their time effectively. "
         />
       </section>
       <section className="center__section landing">
