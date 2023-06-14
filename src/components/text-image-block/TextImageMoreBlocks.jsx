@@ -9,7 +9,7 @@ const TextImageMoreBlocks = () => {
     <div className="projects__container">
       <TextImageBlock
         className="img__to__left"
-        language="React | Javascript"
+        language="Javascript"
         title="1. To do list"
         src={toDo}
         type="btn btn__tertiary btn__green"
@@ -30,14 +30,6 @@ const TextImageMoreBlocks = () => {
         src={daikiri}
         type="btn btn__tertiary btn__red"
         to={`/daikiri-project`}
-      />
-      <TextImageBlock
-        className="img__to__right"
-        language="React"
-        title="4. Calculator"
-        src={daikiri}
-        type="btn btn__tertiary btn__pink"
-        to={`/calculator`}
       />
     </div>
   );

@@ -31,7 +31,7 @@ function WeatherApp(props) {
           textBlock="trio__single__block"
           title="h3"
           titleText="API INTEGRATION & RETRIEVAL"
-          text="I had to research and select a weather API that provided the information I needed. Additionally, parsing and displaying the retrieved data in a visually appealing and easily understandable format. "
+          text="I have researched and selected an API that will provide me with the information you need. Plus, analyze and display data in a visually appealing and easily understandable format."
         />
         <ProcessPart
           showCategory="show__category"
@@ -39,7 +39,7 @@ function WeatherApp(props) {
           textBlock="trio__single__block"
           title="h3"
           titleText="WEATHER APP DEVELOPMENT"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat. Duis imperdiet sed odio a semper. In hac habitasse platea dictumst. Sed pellentesque accumsan tortor a pretium. Mauris lobortis enim eu ipsum mollis dictum. Nulla varius nisl erat, eget pharetra risus viverra sit. "
+          text="Provide users with accurate and up-to-date information about weather conditions for a specific location "
         />
         <ProcessPart
           showCategory="show__category"

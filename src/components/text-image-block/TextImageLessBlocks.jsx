@@ -9,7 +9,7 @@ const TextImageLessBlocks = () => {
     <div className="projects__container">
       <TextImageBlock
         className="img__to__left"
-        language="React | Javascript"
+        language="Javascript"
         title="1. To do list"
         src={toDo}
         type="btn btn__tertiary btn__green"
